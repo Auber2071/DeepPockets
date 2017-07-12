@@ -61,6 +61,7 @@
 		268C1D581EF7BB3400BFF551 /* VDPAppExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C1D571EF7BB3400BFF551 /* VDPAppExtensionViewController.m */; };
 		2694FB0F1EA9AD7E00B65CCB /* navi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2694FB0E1EA9AD7E00B65CCB /* navi.png */; };
 		26C861CF1EC99C400019345B /* VDPPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C861CE1EC99C400019345B /* VDPPersion.m */; };
+		26CA54461F162F5500B49D18 /* VencentDeepPockets copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CA54451F162F5500B49D18 /* VencentDeepPockets copy-Info.plist */; };
 		26CE96051E65713400B6E99D /* jcore-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */; };
 		26CE96071E65713400B6E99D /* jpush-ios-3.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96031E65713400B6E99D /* jpush-ios-3.0.2.a */; };
 		26CE960A1E6576B400B6E99D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96091E6576B400B6E99D /* CFNetwork.framework */; };
@@ -295,6 +296,7 @@
 		2694FB0E1EA9AD7E00B65CCB /* navi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi.png; sourceTree = "<group>"; };
 		26C861CD1EC99C400019345B /* VDPPersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPPersion.h; sourceTree = "<group>"; };
 		26C861CE1EC99C400019345B /* VDPPersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPPersion.m; sourceTree = "<group>"; };
+		26CA54451F162F5500B49D18 /* VencentDeepPockets copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VencentDeepPockets copy-Info.plist"; sourceTree = "<group>"; };
 		26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.1.a"; sourceTree = "<group>"; };
 		26CE96031E65713400B6E99D /* jpush-ios-3.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.2.a"; sourceTree = "<group>"; };
 		26CE96041E65713400B6E99D /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
@@ -319,7 +321,6 @@
 		26DCE8431EFB9B7000D74F92 /* VDPStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPStudent.h; sourceTree = "<group>"; };
 		26DCE8441EFB9B7000D74F92 /* VDPStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPStudent.m; sourceTree = "<group>"; };
 		26DCE8991EFBA5DD00D74F92 /* VencentDeepPockets_release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VencentDeepPockets_release.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DCE89A1EFBA5DE00D74F92 /* VencentDeepPockets copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VencentDeepPockets copy-Info.plist"; path = "/Users/hankai/Desktop/VencentDeepPockets/VencentDeepPockets copy-Info.plist"; sourceTree = "<absolute>"; };
 		26EFE4A91DE7E3DF002CD83B /* VencentDeepPockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VencentDeepPockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EFE4AD1DE7E3DF002CD83B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26EFE4AF1DE7E3DF002CD83B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -657,7 +658,7 @@
 				26EFE4AA1DE7E3DF002CD83B /* Products */,
 				14CE9BB9A069A36E63052F86 /* Pods */,
 				EAF0D587B70534A993CF0223 /* Frameworks */,
-				26DCE89A1EFBA5DE00D74F92 /* VencentDeepPockets copy-Info.plist */,
+				26CA54451F162F5500B49D18 /* VencentDeepPockets copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1013,6 +1014,7 @@
 				26DCE8881EFBA5DD00D74F92 /* search@3x.png in Resources */,
 				26DCE8891EFBA5DD00D74F92 /* Assets.xcassets in Resources */,
 				26DCE88A1EFBA5DD00D74F92 /* navi.png in Resources */,
+				26CA54461F162F5500B49D18 /* VencentDeepPockets copy-Info.plist in Resources */,
 				26DCE88B1EFBA5DD00D74F92 /* 222_15.jpg in Resources */,
 				26DCE88C1EFBA5DD00D74F92 /* 222_5.jpg in Resources */,
 				26DCE88D1EFBA5DD00D74F92 /* 222_13.jpg in Resources */,
