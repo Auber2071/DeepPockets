@@ -1,0 +1,102 @@
+//
+//  VDPPrefixHeader.pch
+//  VencentDeepPockets
+//
+//  Created by hankai on 2016/11/24.
+//  Copyright © 2016年 Vencent. All rights reserved.
+//
+
+#ifndef VDPPrefixHeader_pch
+#define VDPPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+/******************************************************************************************/
+/**
+ *  全屏高度
+ */
+#define SCREEN_HEIGHT  [[UIScreen mainScreen] bounds].size.height
+/**
+ *  全屏宽度
+ */
+#define SCREEN_WIDTH  [[UIScreen mainScreen] bounds].size.width
+/**
+ *  存在导航栏与标签栏时，可现实的区域高度
+ */
+#define SCREEN_HEIGHT_SHOW (SCREEN_HEIGHT - StateBar_Height - NavBar_Height - TabBar_Height)
+
+#define StateBar_Height ([UIApplication sharedApplication].statusBarFrame.size.height)//20
+#define NavBar_Height (self.navigationController.navigationBar.frame.size.height)
+#define TabBar_Height self.tabBarController.tabBar.frame.size.height
+
+
+/******************************************************************************************/
+//16进制色值转换
+#define UIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+/******************************************************************************************/
+
+ #define __MAIN_PAGE_MODULES @[\
+ @{__CLASE_NAME:@"BNCLeaderWindowController",__TITLE_NAME:@"领导视窗"\
+ ]
+/******************************************************************************************/
+
+
+#define isIphone (![[UIDevice currentDevice] userInterfaceIdiom])
+
+
+/******************************************************************************************/
+//自定义NSLog
+
+#ifdef DEBUG
+#   define HKSLog(...) NSLog(__VA_ARGS__);
+#else
+#   define HKSLog(...)
+#endif
+
+
+
+/******************************************************************************************/
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "UIView+HKYExtension.h"
+    #import "VDPNavigationController.h"
+
+    /******************************************************************************************/
+    //define this constant if you want to use Masonry without the 'mas_' prefix
+    #define MAS_SHORTHAND
+
+    //define this constant if you want to enable auto-boxing for default syntax
+    #define MAS_SHORTHAND_GLOBALS
+
+    #import "Masonry.h"
+    /******************************************************************************************/
+
+    #ifdef DEBUG
+    #else
+        #import "confuseHeader.h"
+    #endif
+    /******************************************************************************************/
+
+
+    #endif
+/******************************************************************************************/
+
+
+
+
+#endif /* VDPPrefixHeader_pch */
+
+
+
+

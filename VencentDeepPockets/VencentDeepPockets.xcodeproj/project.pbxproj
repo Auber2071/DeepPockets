@@ -1,0 +1,1861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075D7B53DDB7BF75395DB2F5 /* libPods-VDPTodayExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3513644CC5529658EDDC38 /* libPods-VDPTodayExtension.a */; };
+		26021C141ED1884E00263852 /* VDPPasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 26021C131ED1884E00263852 /* VDPPasswordInputWindow.m */; };
+		26021C1A1ED190DD00263852 /* iPhonePortraitiOS89_414x736pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26021C191ED190DD00263852 /* iPhonePortraitiOS89_414x736pt@3x.png */; };
+		260903701EF76BE7005F8692 /* VDPIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609036F1EF76BE7005F8692 /* VDPIndexViewController.m */; };
+		2609037C1EF774A3005F8692 /* VDPBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609037B1EF774A3005F8692 /* VDPBasicViewController.m */; };
+		260903841EF778E0005F8692 /* VDPStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260903821EF778E0005F8692 /* VDPStackViewController.m */; };
+		260903861EF778E0005F8692 /* VDPStackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 260903831EF778E0005F8692 /* VDPStackViewController.xib */; };
+		2609038A1EF7AB5B005F8692 /* VDPCodeStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260903891EF7AB5B005F8692 /* VDPCodeStackViewController.m */; };
+		2609039C1EF7AC1F005F8692 /* 222_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038C1EF7AC1F005F8692 /* 222_1.jpg */; };
+		2609039E1EF7AC1F005F8692 /* 222_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038D1EF7AC1F005F8692 /* 222_5.jpg */; };
+		260903A01EF7AC1F005F8692 /* 222_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038E1EF7AC1F005F8692 /* 222_3.jpg */; };
+		260903A21EF7AC1F005F8692 /* 222_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038F1EF7AC1F005F8692 /* 222_4.jpg */; };
+		260903A41EF7AC1F005F8692 /* 222_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903901EF7AC1F005F8692 /* 222_9.jpg */; };
+		260903A61EF7AC1F005F8692 /* 222_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903911EF7AC1F005F8692 /* 222_6.jpg */; };
+		260903A81EF7AC1F005F8692 /* 222_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903921EF7AC1F005F8692 /* 222_13.jpg */; };
+		260903AA1EF7AC1F005F8692 /* 222_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903931EF7AC1F005F8692 /* 222_10.jpg */; };
+		260903AC1EF7AC1F005F8692 /* 222_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903941EF7AC1F005F8692 /* 222_12.jpg */; };
+		260903AE1EF7AC1F005F8692 /* 222_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903951EF7AC1F005F8692 /* 222_2.jpg */; };
+		260903B01EF7AC1F005F8692 /* 222_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903961EF7AC1F005F8692 /* 222_11.jpg */; };
+		260903B21EF7AC1F005F8692 /* 222_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903971EF7AC1F005F8692 /* 222_7.jpg */; };
+		260903B41EF7AC1F005F8692 /* 222_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903981EF7AC1F005F8692 /* 222_8.jpg */; };
+		260903B61EF7AC1F005F8692 /* 222_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903991EF7AC1F005F8692 /* 222_14.jpg */; };
+		260903B81EF7AC1F005F8692 /* 222_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609039A1EF7AC1F005F8692 /* 222_15.jpg */; };
+		260903BA1EF7AC1F005F8692 /* 222_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609039B1EF7AC1F005F8692 /* 222_16.jpg */; };
+		261340AF1EF8F22900D970F7 /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 261340AD1EF8F22900D970F7 /* confuse.sh */; };
+		261340B11EF8F22900D970F7 /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 261340AE1EF8F22900D970F7 /* func.list */; };
+		261EC1401F010889006E7011 /* VDPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261EC13F1F010889006E7011 /* VDPNavigationController.m */; };
+		261EC1411F010889006E7011 /* VDPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261EC13F1F010889006E7011 /* VDPNavigationController.m */; };
+		261EC1441F010932006E7011 /* UIView+HKYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 261EC1431F010932006E7011 /* UIView+HKYExtension.m */; };
+		261EC1451F010932006E7011 /* UIView+HKYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 261EC1431F010932006E7011 /* UIView+HKYExtension.m */; };
+		261EC1471F010D91006E7011 /* confuseSecond.sh in Resources */ = {isa = PBXBuildFile; fileRef = 261EC1461F010D91006E7011 /* confuseSecond.sh */; };
+		261EC1481F010D91006E7011 /* confuseSecond.sh in Resources */ = {isa = PBXBuildFile; fileRef = 261EC1461F010D91006E7011 /* confuseSecond.sh */; };
+		261F61AD1EF36FE300822921 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261F61AC1EF36FE300822921 /* NotificationCenter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		261F61B11EF36FE300822921 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F61B01EF36FE300822921 /* TodayViewController.m */; };
+		261F61B81EF36FE300822921 /* VDPTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 261F61AB1EF36FE300822921 /* VDPTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		263FEBCE1EF22D280051252A /* UIScrollView+VDPTouchUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBCD1EF22D280051252A /* UIScrollView+VDPTouchUp.m */; };
+		263FEBF91EF265320051252A /* VDPCustomNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBF81EF265320051252A /* VDPCustomNumberKeyBoard.m */; };
+		263FEBFE1EF272720051252A /* UITextField+VDPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBFD1EF272720051252A /* UITextField+VDPCategory.m */; };
+		2644273F1EA73DBF00DB0B3F /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 2644273C1EA73DBF00DB0B3F /* search.png */; };
+		264427411EA73DBF00DB0B3F /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2644273D1EA73DBF00DB0B3F /* search@2x.png */; };
+		264427431EA73DBF00DB0B3F /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2644273E1EA73DBF00DB0B3F /* search@3x.png */; };
+		2646E7631F05E8BA00333955 /* VDPShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2646E7611F05E8BA00333955 /* VDPShareViewController.m */; };
+		2646E7641F05E8BA00333955 /* VDPShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2646E7611F05E8BA00333955 /* VDPShareViewController.m */; };
+		2646E7651F05E8BA00333955 /* VDPShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2646E7621F05E8BA00333955 /* VDPShareViewController.xib */; };
+		2646E7661F05E8BA00333955 /* VDPShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2646E7621F05E8BA00333955 /* VDPShareViewController.xib */; };
+		264B720D1F15C53B00093088 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264B720C1F15C53B00093088 /* ShareViewController.m */; };
+		264B72101F15C53B00093088 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264B720E1F15C53B00093088 /* MainInterface.storyboard */; };
+		264B72141F15C53B00093088 /* VDPShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 264B72091F15C53B00093088 /* VDPShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		268A94CF1DEEAC130037A141 /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */; };
+		268A94D01DEEAC130037A141 /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CD1DEEAC130037A141 /* LocationShareModel.m */; };
+		268A94D11DEEAC130037A141 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CE1DEEAC130037A141 /* LocationTracker.m */; };
+		268C1D581EF7BB3400BFF551 /* VDPAppExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C1D571EF7BB3400BFF551 /* VDPAppExtensionViewController.m */; };
+		2694FB0F1EA9AD7E00B65CCB /* navi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2694FB0E1EA9AD7E00B65CCB /* navi.png */; };
+		26C861CF1EC99C400019345B /* VDPPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C861CE1EC99C400019345B /* VDPPersion.m */; };
+		26CE96051E65713400B6E99D /* jcore-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */; };
+		26CE96071E65713400B6E99D /* jpush-ios-3.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96031E65713400B6E99D /* jpush-ios-3.0.2.a */; };
+		26CE960A1E6576B400B6E99D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96091E6576B400B6E99D /* CFNetwork.framework */; };
+		26CE960C1E6576C400B6E99D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE960B1E6576C400B6E99D /* CoreFoundation.framework */; };
+		26CE960E1E6576CC00B6E99D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE960D1E6576CC00B6E99D /* CoreTelephony.framework */; };
+		26CE96101E6576D200B6E99D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE960F1E6576D200B6E99D /* SystemConfiguration.framework */; };
+		26CE96121E6576DB00B6E99D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96111E6576DB00B6E99D /* CoreGraphics.framework */; };
+		26CE96141E6576E300B6E99D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96131E6576E300B6E99D /* Foundation.framework */; };
+		26CE96161E6576E800B6E99D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96151E6576E800B6E99D /* UIKit.framework */; };
+		26CE96181E6576EF00B6E99D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96171E6576EF00B6E99D /* Security.framework */; };
+		26CE961A1E6576FB00B6E99D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96191E6576FB00B6E99D /* libz.tbd */; };
+		26CE961C1E65771000B6E99D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE961B1E65771000B6E99D /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		26CE961E1E65772000B6E99D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE961D1E65772000B6E99D /* libresolv.tbd */; };
+		26D8A4731EF132EB0007FBA1 /* FileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D8A4721EF132EB0007FBA1 /* FileHash.m */; };
+		26DCE7DD1EFA131200D74F92 /* VDPScreenShotWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DCE7DC1EFA131200D74F92 /* VDPScreenShotWarning.m */; };
+		26DCE7EF1EFA4CD500D74F92 /* VDPPrisonBreakWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DCE7EE1EFA4CD500D74F92 /* VDPPrisonBreakWarning.m */; };
+		26DCE8451EFB9B7000D74F92 /* VDPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DCE8441EFB9B7000D74F92 /* VDPStudent.m */; };
+		26DCE84D1EFBA5DD00D74F92 /* VDPIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609036F1EF76BE7005F8692 /* VDPIndexViewController.m */; };
+		26DCE84E1EFBA5DD00D74F92 /* VDPAppExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C1D571EF7BB3400BFF551 /* VDPAppExtensionViewController.m */; };
+		26DCE84F1EFBA5DD00D74F92 /* NSData+VDPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4D01DE7E4D9002CD83B /* NSData+VDPAES.m */; };
+		26DCE8501EFBA5DD00D74F92 /* VDPCustomNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBF81EF265320051252A /* VDPCustomNumberKeyBoard.m */; };
+		26DCE8511EFBA5DD00D74F92 /* VDPCodeStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260903891EF7AB5B005F8692 /* VDPCodeStackViewController.m */; };
+		26DCE8521EFBA5DD00D74F92 /* VDPPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C861CE1EC99C400019345B /* VDPPersion.m */; };
+		26DCE8531EFBA5DD00D74F92 /* NSString+VDPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4D21DE7E4D9002CD83B /* NSString+VDPAES.m */; };
+		26DCE8541EFBA5DD00D74F92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4B01DE7E3DF002CD83B /* AppDelegate.m */; };
+		26DCE8551EFBA5DD00D74F92 /* VDPStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260903821EF778E0005F8692 /* VDPStackViewController.m */; };
+		26DCE8561EFBA5DD00D74F92 /* VDPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4DA1DE80F4C002CD83B /* VDPViewController.m */; };
+		26DCE8571EFBA5DD00D74F92 /* FileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D8A4721EF132EB0007FBA1 /* FileHash.m */; };
+		26DCE8581EFBA5DD00D74F92 /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CD1DEEAC130037A141 /* LocationShareModel.m */; };
+		26DCE8591EFBA5DD00D74F92 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CE1DEEAC130037A141 /* LocationTracker.m */; };
+		26DCE85A1EFBA5DD00D74F92 /* VDPPasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 26021C131ED1884E00263852 /* VDPPasswordInputWindow.m */; };
+		26DCE85B1EFBA5DD00D74F92 /* VDPPrisonBreakWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DCE7EE1EFA4CD500D74F92 /* VDPPrisonBreakWarning.m */; };
+		26DCE85C1EFBA5DD00D74F92 /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */; };
+		26DCE85D1EFBA5DD00D74F92 /* VDPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DCE8441EFB9B7000D74F92 /* VDPStudent.m */; };
+		26DCE85E1EFBA5DD00D74F92 /* VDPScreenShotWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DCE7DC1EFA131200D74F92 /* VDPScreenShotWarning.m */; };
+		26DCE85F1EFBA5DD00D74F92 /* UIScrollView+VDPTouchUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBCD1EF22D280051252A /* UIScrollView+VDPTouchUp.m */; };
+		26DCE8601EFBA5DD00D74F92 /* VDPBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609037B1EF774A3005F8692 /* VDPBasicViewController.m */; };
+		26DCE8611EFBA5DD00D74F92 /* NSString+VDPSHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4C91DE7E42C002CD83B /* NSString+VDPSHA.m */; };
+		26DCE8621EFBA5DD00D74F92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4AD1DE7E3DF002CD83B /* main.m */; };
+		26DCE8631EFBA5DD00D74F92 /* UITextField+VDPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBFD1EF272720051252A /* UITextField+VDPCategory.m */; };
+		26DCE8651EFBA5DD00D74F92 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE961D1E65772000B6E99D /* libresolv.tbd */; };
+		26DCE8661EFBA5DD00D74F92 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE961B1E65771000B6E99D /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		26DCE8671EFBA5DD00D74F92 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96191E6576FB00B6E99D /* libz.tbd */; };
+		26DCE8681EFBA5DD00D74F92 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96171E6576EF00B6E99D /* Security.framework */; };
+		26DCE8691EFBA5DD00D74F92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96151E6576E800B6E99D /* UIKit.framework */; };
+		26DCE86A1EFBA5DD00D74F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96131E6576E300B6E99D /* Foundation.framework */; };
+		26DCE86B1EFBA5DD00D74F92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96111E6576DB00B6E99D /* CoreGraphics.framework */; };
+		26DCE86C1EFBA5DD00D74F92 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE960F1E6576D200B6E99D /* SystemConfiguration.framework */; };
+		26DCE86D1EFBA5DD00D74F92 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE960D1E6576CC00B6E99D /* CoreTelephony.framework */; };
+		26DCE86E1EFBA5DD00D74F92 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE960B1E6576C400B6E99D /* CoreFoundation.framework */; };
+		26DCE86F1EFBA5DD00D74F92 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96091E6576B400B6E99D /* CFNetwork.framework */; };
+		26DCE8701EFBA5DD00D74F92 /* jpush-ios-3.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96031E65713400B6E99D /* jpush-ios-3.0.2.a */; };
+		26DCE8711EFBA5DD00D74F92 /* jcore-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */; };
+		26DCE8721EFBA5DD00D74F92 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		26DCE8731EFBA5DD00D74F92 /* libPods-VencentDeepPockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A64DD2BE098B3E932D7162B /* libPods-VencentDeepPockets.a */; };
+		26DCE8751EFBA5DD00D74F92 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2644273D1EA73DBF00DB0B3F /* search@2x.png */; };
+		26DCE8761EFBA5DD00D74F92 /* 222_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609039B1EF7AC1F005F8692 /* 222_16.jpg */; };
+		26DCE8771EFBA5DD00D74F92 /* 222_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038F1EF7AC1F005F8692 /* 222_4.jpg */; };
+		26DCE8781EFBA5DD00D74F92 /* 222_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903961EF7AC1F005F8692 /* 222_11.jpg */; };
+		26DCE8791EFBA5DD00D74F92 /* 222_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038C1EF7AC1F005F8692 /* 222_1.jpg */; };
+		26DCE87A1EFBA5DD00D74F92 /* 222_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903951EF7AC1F005F8692 /* 222_2.jpg */; };
+		26DCE87B1EFBA5DD00D74F92 /* 222_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903911EF7AC1F005F8692 /* 222_6.jpg */; };
+		26DCE87C1EFBA5DD00D74F92 /* 222_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903971EF7AC1F005F8692 /* 222_7.jpg */; };
+		26DCE87D1EFBA5DD00D74F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EFE4BA1DE7E3DF002CD83B /* LaunchScreen.storyboard */; };
+		26DCE87E1EFBA5DD00D74F92 /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 261340AD1EF8F22900D970F7 /* confuse.sh */; };
+		26DCE87F1EFBA5DD00D74F92 /* 222_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903901EF7AC1F005F8692 /* 222_9.jpg */; };
+		26DCE8801EFBA5DD00D74F92 /* 222_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038E1EF7AC1F005F8692 /* 222_3.jpg */; };
+		26DCE8811EFBA5DD00D74F92 /* iPhonePortraitiOS89_414x736pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26021C191ED190DD00263852 /* iPhonePortraitiOS89_414x736pt@3x.png */; };
+		26DCE8821EFBA5DD00D74F92 /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 261340AE1EF8F22900D970F7 /* func.list */; };
+		26DCE8831EFBA5DD00D74F92 /* 222_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903991EF7AC1F005F8692 /* 222_14.jpg */; };
+		26DCE8841EFBA5DD00D74F92 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 2644273C1EA73DBF00DB0B3F /* search.png */; };
+		26DCE8851EFBA5DD00D74F92 /* 222_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903931EF7AC1F005F8692 /* 222_10.jpg */; };
+		26DCE8861EFBA5DD00D74F92 /* 222_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903981EF7AC1F005F8692 /* 222_8.jpg */; };
+		26DCE8871EFBA5DD00D74F92 /* VDPStackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 260903831EF778E0005F8692 /* VDPStackViewController.xib */; };
+		26DCE8881EFBA5DD00D74F92 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2644273E1EA73DBF00DB0B3F /* search@3x.png */; };
+		26DCE8891EFBA5DD00D74F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */; };
+		26DCE88A1EFBA5DD00D74F92 /* navi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2694FB0E1EA9AD7E00B65CCB /* navi.png */; };
+		26DCE88B1EFBA5DD00D74F92 /* 222_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609039A1EF7AC1F005F8692 /* 222_15.jpg */; };
+		26DCE88C1EFBA5DD00D74F92 /* 222_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609038D1EF7AC1F005F8692 /* 222_5.jpg */; };
+		26DCE88D1EFBA5DD00D74F92 /* 222_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903921EF7AC1F005F8692 /* 222_13.jpg */; };
+		26DCE88E1EFBA5DD00D74F92 /* 222_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260903941EF7AC1F005F8692 /* 222_12.jpg */; };
+		26DCE8941EFBA5DD00D74F92 /* VDPTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 261F61AB1EF36FE300822921 /* VDPTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26EFE4AE1DE7E3DF002CD83B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4AD1DE7E3DF002CD83B /* main.m */; };
+		26EFE4B11DE7E3DF002CD83B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4B01DE7E3DF002CD83B /* AppDelegate.m */; };
+		26EFE4B91DE7E3DF002CD83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */; };
+		26EFE4BC1DE7E3DF002CD83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EFE4BA1DE7E3DF002CD83B /* LaunchScreen.storyboard */; };
+		26EFE4CC1DE7E42C002CD83B /* NSString+VDPSHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4C91DE7E42C002CD83B /* NSString+VDPSHA.m */; };
+		26EFE4D31DE7E4D9002CD83B /* NSData+VDPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4D01DE7E4D9002CD83B /* NSData+VDPAES.m */; };
+		26EFE4D41DE7E4D9002CD83B /* NSString+VDPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4D21DE7E4D9002CD83B /* NSString+VDPAES.m */; };
+		26EFE4DB1DE80F4C002CD83B /* VDPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFE4DA1DE80F4C002CD83B /* VDPViewController.m */; };
+		26FAEB5E1F15FA4700AB5F97 /* ShareActViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FAEB5D1F15FA4700AB5F97 /* ShareActViewController.m */; };
+		26FAEB611F15FDC800AB5F97 /* CustomShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FAEB601F15FDC800AB5F97 /* CustomShareViewController.m */; };
+		26FAEB6A1F15FED000AB5F97 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FAEB691F15FED000AB5F97 /* ActionViewController.m */; };
+		26FAEB6D1F15FED000AB5F97 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FAEB6B1F15FED000AB5F97 /* MainInterface.storyboard */; };
+		26FAEB711F15FED000AB5F97 /* VDPActionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26FAEB661F15FED000AB5F97 /* VDPActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26FAEB781F16075400AB5F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */; };
+		26FAEB791F16075500AB5F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */; };
+		26FAEB7A1F16075600AB5F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */; };
+		27872EC86F37F9B14A3DD131 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		28EC74235E9F1A8079F9EB41 /* libPods-VencentDeepPockets_release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEE4684444AE73B0C236D6D /* libPods-VencentDeepPockets_release.a */; };
+		881117AD222F1003BF53719F /* libPods-VencentDeepPockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A64DD2BE098B3E932D7162B /* libPods-VencentDeepPockets.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		261F61B61EF36FE300822921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EFE4A11DE7E3DF002CD83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261F61AA1EF36FE300822921;
+			remoteInfo = VDPTodayExtension;
+		};
+		264B72121F15C53B00093088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EFE4A11DE7E3DF002CD83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264B72081F15C53B00093088;
+			remoteInfo = VDPShareExtension;
+		};
+		26DCE8491EFBA5DD00D74F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EFE4A11DE7E3DF002CD83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261F61AA1EF36FE300822921;
+			remoteInfo = VDPTodayExtension;
+		};
+		26FAEB6F1F15FED000AB5F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EFE4A11DE7E3DF002CD83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FAEB651F15FED000AB5F97;
+			remoteInfo = VDPActionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		261F61BC1EF36FE300822921 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26FAEB711F15FED000AB5F97 /* VDPActionExtension.appex in Embed App Extensions */,
+				261F61B81EF36FE300822921 /* VDPTodayExtension.appex in Embed App Extensions */,
+				264B72141F15C53B00093088 /* VDPShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DCE8931EFBA5DD00D74F92 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26DCE8941EFBA5DD00D74F92 /* VDPTodayExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21E29301008CFFF84DEE2FFB /* Pods-VencentDeepPockets_release.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VencentDeepPockets_release.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VencentDeepPockets_release/Pods-VencentDeepPockets_release.debug.xcconfig"; sourceTree = "<group>"; };
+		26021C121ED1884E00263852 /* VDPPasswordInputWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPPasswordInputWindow.h; sourceTree = "<group>"; };
+		26021C131ED1884E00263852 /* VDPPasswordInputWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPPasswordInputWindow.m; sourceTree = "<group>"; };
+		26021C191ED190DD00263852 /* iPhonePortraitiOS89_414x736pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhonePortraitiOS89_414x736pt@3x.png"; sourceTree = "<group>"; };
+		2609036E1EF76BE7005F8692 /* VDPIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPIndexViewController.h; sourceTree = "<group>"; };
+		2609036F1EF76BE7005F8692 /* VDPIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPIndexViewController.m; sourceTree = "<group>"; };
+		2609037A1EF774A3005F8692 /* VDPBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPBasicViewController.h; sourceTree = "<group>"; };
+		2609037B1EF774A3005F8692 /* VDPBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPBasicViewController.m; sourceTree = "<group>"; };
+		260903811EF778E0005F8692 /* VDPStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPStackViewController.h; sourceTree = "<group>"; };
+		260903821EF778E0005F8692 /* VDPStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPStackViewController.m; sourceTree = "<group>"; };
+		260903831EF778E0005F8692 /* VDPStackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDPStackViewController.xib; sourceTree = "<group>"; };
+		260903881EF7AB5B005F8692 /* VDPCodeStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPCodeStackViewController.h; sourceTree = "<group>"; };
+		260903891EF7AB5B005F8692 /* VDPCodeStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPCodeStackViewController.m; sourceTree = "<group>"; };
+		2609038C1EF7AC1F005F8692 /* 222_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_1.jpg; sourceTree = "<group>"; };
+		2609038D1EF7AC1F005F8692 /* 222_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_5.jpg; sourceTree = "<group>"; };
+		2609038E1EF7AC1F005F8692 /* 222_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_3.jpg; sourceTree = "<group>"; };
+		2609038F1EF7AC1F005F8692 /* 222_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_4.jpg; sourceTree = "<group>"; };
+		260903901EF7AC1F005F8692 /* 222_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_9.jpg; sourceTree = "<group>"; };
+		260903911EF7AC1F005F8692 /* 222_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_6.jpg; sourceTree = "<group>"; };
+		260903921EF7AC1F005F8692 /* 222_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_13.jpg; sourceTree = "<group>"; };
+		260903931EF7AC1F005F8692 /* 222_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_10.jpg; sourceTree = "<group>"; };
+		260903941EF7AC1F005F8692 /* 222_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_12.jpg; sourceTree = "<group>"; };
+		260903951EF7AC1F005F8692 /* 222_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_2.jpg; sourceTree = "<group>"; };
+		260903961EF7AC1F005F8692 /* 222_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_11.jpg; sourceTree = "<group>"; };
+		260903971EF7AC1F005F8692 /* 222_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_7.jpg; sourceTree = "<group>"; };
+		260903981EF7AC1F005F8692 /* 222_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_8.jpg; sourceTree = "<group>"; };
+		260903991EF7AC1F005F8692 /* 222_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_14.jpg; sourceTree = "<group>"; };
+		2609039A1EF7AC1F005F8692 /* 222_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_15.jpg; sourceTree = "<group>"; };
+		2609039B1EF7AC1F005F8692 /* 222_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_16.jpg; sourceTree = "<group>"; };
+		261340A61EF8EDCA00D970F7 /* confuseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = confuseHeader.h; sourceTree = "<group>"; };
+		261340AD1EF8F22900D970F7 /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = SOURCE_ROOT; };
+		261340AE1EF8F22900D970F7 /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = SOURCE_ROOT; };
+		261EC13E1F010889006E7011 /* VDPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPNavigationController.h; sourceTree = "<group>"; };
+		261EC13F1F010889006E7011 /* VDPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPNavigationController.m; sourceTree = "<group>"; };
+		261EC1421F010932006E7011 /* UIView+HKYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HKYExtension.h"; sourceTree = "<group>"; };
+		261EC1431F010932006E7011 /* UIView+HKYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HKYExtension.m"; sourceTree = "<group>"; };
+		261EC1461F010D91006E7011 /* confuseSecond.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuseSecond.sh; sourceTree = "<group>"; };
+		261F61AB1EF36FE300822921 /* VDPTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VDPTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		261F61AC1EF36FE300822921 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		261F61AF1EF36FE300822921 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		261F61B01EF36FE300822921 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		261F61B51EF36FE300822921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261F61BE1EF3799D00822921 /* VDPTodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VDPTodayExtension.entitlements; sourceTree = "<group>"; };
+		263FEBCC1EF22D280051252A /* UIScrollView+VDPTouchUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VDPTouchUp.h"; sourceTree = "<group>"; };
+		263FEBCD1EF22D280051252A /* UIScrollView+VDPTouchUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VDPTouchUp.m"; sourceTree = "<group>"; };
+		263FEBF71EF265320051252A /* VDPCustomNumberKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPCustomNumberKeyBoard.h; sourceTree = "<group>"; };
+		263FEBF81EF265320051252A /* VDPCustomNumberKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPCustomNumberKeyBoard.m; sourceTree = "<group>"; };
+		263FEBFC1EF272710051252A /* UITextField+VDPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+VDPCategory.h"; sourceTree = "<group>"; };
+		263FEBFD1EF272720051252A /* UITextField+VDPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+VDPCategory.m"; sourceTree = "<group>"; };
+		2644273C1EA73DBF00DB0B3F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		2644273D1EA73DBF00DB0B3F /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		2644273E1EA73DBF00DB0B3F /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
+		2646E7601F05E8BA00333955 /* VDPShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPShareViewController.h; sourceTree = "<group>"; };
+		2646E7611F05E8BA00333955 /* VDPShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPShareViewController.m; sourceTree = "<group>"; };
+		2646E7621F05E8BA00333955 /* VDPShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDPShareViewController.xib; sourceTree = "<group>"; };
+		264B72091F15C53B00093088 /* VDPShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VDPShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		264B720B1F15C53B00093088 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		264B720C1F15C53B00093088 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		264B720F1F15C53B00093088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		264B72111F15C53B00093088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268A94C91DEEAC130037A141 /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
+		268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
+		268A94CB1DEEAC130037A141 /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
+		268A94CC1DEEAC130037A141 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		268A94CD1DEEAC130037A141 /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
+		268A94CE1DEEAC130037A141 /* LocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTracker.m; sourceTree = "<group>"; };
+		268C1D561EF7BB3400BFF551 /* VDPAppExtensionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPAppExtensionViewController.h; sourceTree = "<group>"; };
+		268C1D571EF7BB3400BFF551 /* VDPAppExtensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPAppExtensionViewController.m; sourceTree = "<group>"; };
+		2692D1B91E65B0E6008E4AB6 /* VencentDeepPockets copy2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VencentDeepPockets copy2-Info.plist"; sourceTree = "<group>"; };
+		2694FB0E1EA9AD7E00B65CCB /* navi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi.png; sourceTree = "<group>"; };
+		26C861CD1EC99C400019345B /* VDPPersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPPersion.h; sourceTree = "<group>"; };
+		26C861CE1EC99C400019345B /* VDPPersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPPersion.m; sourceTree = "<group>"; };
+		26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.1.a"; sourceTree = "<group>"; };
+		26CE96031E65713400B6E99D /* jpush-ios-3.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.2.a"; sourceTree = "<group>"; };
+		26CE96041E65713400B6E99D /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		26CE96091E6576B400B6E99D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		26CE960B1E6576C400B6E99D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		26CE960D1E6576CC00B6E99D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		26CE960F1E6576D200B6E99D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		26CE96111E6576DB00B6E99D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26CE96131E6576E300B6E99D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26CE96151E6576E800B6E99D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26CE96171E6576EF00B6E99D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		26CE96191E6576FB00B6E99D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		26CE961B1E65771000B6E99D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		26CE961D1E65772000B6E99D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		26CE965E1E657A2B00B6E99D /* VencentDeepPockets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VencentDeepPockets.entitlements; sourceTree = "<group>"; };
+		26D8A4711EF132EB0007FBA1 /* FileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHash.h; sourceTree = "<group>"; };
+		26D8A4721EF132EB0007FBA1 /* FileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHash.m; sourceTree = "<group>"; };
+		26DCE7DB1EFA131200D74F92 /* VDPScreenShotWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPScreenShotWarning.h; sourceTree = "<group>"; };
+		26DCE7DC1EFA131200D74F92 /* VDPScreenShotWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPScreenShotWarning.m; sourceTree = "<group>"; };
+		26DCE7ED1EFA4CD500D74F92 /* VDPPrisonBreakWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPPrisonBreakWarning.h; sourceTree = "<group>"; };
+		26DCE7EE1EFA4CD500D74F92 /* VDPPrisonBreakWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPPrisonBreakWarning.m; sourceTree = "<group>"; };
+		26DCE8431EFB9B7000D74F92 /* VDPStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPStudent.h; sourceTree = "<group>"; };
+		26DCE8441EFB9B7000D74F92 /* VDPStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPStudent.m; sourceTree = "<group>"; };
+		26DCE8991EFBA5DD00D74F92 /* VencentDeepPockets_release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VencentDeepPockets_release.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DCE89A1EFBA5DE00D74F92 /* VencentDeepPockets copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VencentDeepPockets copy-Info.plist"; path = "/Users/hankai/Desktop/VencentDeepPockets/VencentDeepPockets copy-Info.plist"; sourceTree = "<absolute>"; };
+		26EFE4A91DE7E3DF002CD83B /* VencentDeepPockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VencentDeepPockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EFE4AD1DE7E3DF002CD83B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26EFE4AF1DE7E3DF002CD83B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26EFE4B01DE7E3DF002CD83B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26EFE4BB1DE7E3DF002CD83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26EFE4BD1DE7E3DF002CD83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EFE4C81DE7E42C002CD83B /* NSString+VDPSHA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VDPSHA.h"; sourceTree = "<group>"; };
+		26EFE4C91DE7E42C002CD83B /* NSString+VDPSHA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VDPSHA.m"; sourceTree = "<group>"; };
+		26EFE4CD1DE7E436002CD83B /* VDPPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDPPrefixHeader.pch; sourceTree = "<group>"; };
+		26EFE4CF1DE7E4D9002CD83B /* NSData+VDPAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+VDPAES.h"; sourceTree = "<group>"; };
+		26EFE4D01DE7E4D9002CD83B /* NSData+VDPAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+VDPAES.m"; sourceTree = "<group>"; };
+		26EFE4D11DE7E4D9002CD83B /* NSString+VDPAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VDPAES.h"; sourceTree = "<group>"; };
+		26EFE4D21DE7E4D9002CD83B /* NSString+VDPAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VDPAES.m"; sourceTree = "<group>"; };
+		26EFE4D91DE80F4C002CD83B /* VDPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPViewController.h; sourceTree = "<group>"; };
+		26EFE4DA1DE80F4C002CD83B /* VDPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPViewController.m; sourceTree = "<group>"; };
+		26FAEB5B1F15F24800AB5F97 /* VDPShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VDPShareExtension.entitlements; sourceTree = "<group>"; };
+		26FAEB5C1F15FA4700AB5F97 /* ShareActViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareActViewController.h; sourceTree = "<group>"; };
+		26FAEB5D1F15FA4700AB5F97 /* ShareActViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareActViewController.m; sourceTree = "<group>"; };
+		26FAEB5F1F15FDC800AB5F97 /* CustomShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomShareViewController.h; sourceTree = "<group>"; };
+		26FAEB601F15FDC800AB5F97 /* CustomShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomShareViewController.m; sourceTree = "<group>"; };
+		26FAEB661F15FED000AB5F97 /* VDPActionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VDPActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FAEB681F15FED000AB5F97 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		26FAEB691F15FED000AB5F97 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		26FAEB6C1F15FED000AB5F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		26FAEB6E1F15FED000AB5F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FAEB761F15FF7100AB5F97 /* VDPActionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VDPActionExtension.entitlements; sourceTree = "<group>"; };
+		296AC33D7A4B79C83B64FEED /* Pods-VDPTodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDPTodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDPTodayExtension/Pods-VDPTodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		2AEE4684444AE73B0C236D6D /* libPods-VencentDeepPockets_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VencentDeepPockets_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE4E4F675E3438174F3FB0A /* Pods-VencentDeepPockets copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VencentDeepPockets copy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VencentDeepPockets copy/Pods-VencentDeepPockets copy.debug.xcconfig"; sourceTree = "<group>"; };
+		520AEE7919882FEC435EEFDD /* Pods-VencentDeepPockets_release.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VencentDeepPockets_release.release.xcconfig"; path = "Pods/Target Support Files/Pods-VencentDeepPockets_release/Pods-VencentDeepPockets_release.release.xcconfig"; sourceTree = "<group>"; };
+		7A64DD2BE098B3E932D7162B /* libPods-VencentDeepPockets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VencentDeepPockets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3513644CC5529658EDDC38 /* libPods-VDPTodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VDPTodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31F26F6830257080BA38FE9 /* Pods-VDPTodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDPTodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDPTodayExtension/Pods-VDPTodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		BAB9155C692BADEE210DECE4 /* Pods-VencentDeepPockets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VencentDeepPockets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets.debug.xcconfig"; sourceTree = "<group>"; };
+		C6EAFB691D10A33CCA88EADF /* Pods-VencentDeepPockets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VencentDeepPockets.release.xcconfig"; path = "Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets.release.xcconfig"; sourceTree = "<group>"; };
+		D74C6B27F5B78A8F7024138F /* libPods-VencentDeepPockets copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VencentDeepPockets copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14FF417B27A5BADC8E8DA22 /* Pods-VencentDeepPockets copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VencentDeepPockets copy.release.xcconfig"; path = "Pods/Target Support Files/Pods-VencentDeepPockets copy/Pods-VencentDeepPockets copy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261F61A81EF36FE300822921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261F61AD1EF36FE300822921 /* NotificationCenter.framework in Frameworks */,
+				075D7B53DDB7BF75395DB2F5 /* libPods-VDPTodayExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B72061F15C53B00093088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DCE8641EFBA5DD00D74F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DCE8651EFBA5DD00D74F92 /* libresolv.tbd in Frameworks */,
+				26DCE8661EFBA5DD00D74F92 /* UserNotifications.framework in Frameworks */,
+				26DCE8671EFBA5DD00D74F92 /* libz.tbd in Frameworks */,
+				26DCE8681EFBA5DD00D74F92 /* Security.framework in Frameworks */,
+				26DCE8691EFBA5DD00D74F92 /* UIKit.framework in Frameworks */,
+				26DCE86A1EFBA5DD00D74F92 /* Foundation.framework in Frameworks */,
+				26DCE86B1EFBA5DD00D74F92 /* CoreGraphics.framework in Frameworks */,
+				26DCE86C1EFBA5DD00D74F92 /* SystemConfiguration.framework in Frameworks */,
+				26DCE86D1EFBA5DD00D74F92 /* CoreTelephony.framework in Frameworks */,
+				26DCE86E1EFBA5DD00D74F92 /* CoreFoundation.framework in Frameworks */,
+				26DCE86F1EFBA5DD00D74F92 /* CFNetwork.framework in Frameworks */,
+				26DCE8701EFBA5DD00D74F92 /* jpush-ios-3.0.2.a in Frameworks */,
+				26DCE8711EFBA5DD00D74F92 /* jcore-ios-1.1.1.a in Frameworks */,
+				26DCE8721EFBA5DD00D74F92 /* (null) in Frameworks */,
+				26DCE8731EFBA5DD00D74F92 /* libPods-VencentDeepPockets.a in Frameworks */,
+				28EC74235E9F1A8079F9EB41 /* libPods-VencentDeepPockets_release.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EFE4A61DE7E3DF002CD83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CE961E1E65772000B6E99D /* libresolv.tbd in Frameworks */,
+				26CE961C1E65771000B6E99D /* UserNotifications.framework in Frameworks */,
+				26CE961A1E6576FB00B6E99D /* libz.tbd in Frameworks */,
+				26CE96181E6576EF00B6E99D /* Security.framework in Frameworks */,
+				26CE96161E6576E800B6E99D /* UIKit.framework in Frameworks */,
+				26CE96141E6576E300B6E99D /* Foundation.framework in Frameworks */,
+				26CE96121E6576DB00B6E99D /* CoreGraphics.framework in Frameworks */,
+				26CE96101E6576D200B6E99D /* SystemConfiguration.framework in Frameworks */,
+				26CE960E1E6576CC00B6E99D /* CoreTelephony.framework in Frameworks */,
+				26CE960C1E6576C400B6E99D /* CoreFoundation.framework in Frameworks */,
+				26CE960A1E6576B400B6E99D /* CFNetwork.framework in Frameworks */,
+				26CE96071E65713400B6E99D /* jpush-ios-3.0.2.a in Frameworks */,
+				26CE96051E65713400B6E99D /* jcore-ios-1.1.1.a in Frameworks */,
+				27872EC86F37F9B14A3DD131 /* (null) in Frameworks */,
+				881117AD222F1003BF53719F /* libPods-VencentDeepPockets.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FAEB631F15FED000AB5F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CE9BB9A069A36E63052F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9155C692BADEE210DECE4 /* Pods-VencentDeepPockets.debug.xcconfig */,
+				C6EAFB691D10A33CCA88EADF /* Pods-VencentDeepPockets.release.xcconfig */,
+				3FE4E4F675E3438174F3FB0A /* Pods-VencentDeepPockets copy.debug.xcconfig */,
+				E14FF417B27A5BADC8E8DA22 /* Pods-VencentDeepPockets copy.release.xcconfig */,
+				21E29301008CFFF84DEE2FFB /* Pods-VencentDeepPockets_release.debug.xcconfig */,
+				520AEE7919882FEC435EEFDD /* Pods-VencentDeepPockets_release.release.xcconfig */,
+				B31F26F6830257080BA38FE9 /* Pods-VDPTodayExtension.debug.xcconfig */,
+				296AC33D7A4B79C83B64FEED /* Pods-VDPTodayExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		260903461EF766DF005F8692 /* CustomNumberKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				263FEBF71EF265320051252A /* VDPCustomNumberKeyBoard.h */,
+				263FEBF81EF265320051252A /* VDPCustomNumberKeyBoard.m */,
+			);
+			name = CustomNumberKeyBoard;
+			sourceTree = "<group>";
+		};
+		260903BC1EF7AD16005F8692 /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				260903811EF778E0005F8692 /* VDPStackViewController.h */,
+				260903821EF778E0005F8692 /* VDPStackViewController.m */,
+				260903831EF778E0005F8692 /* VDPStackViewController.xib */,
+				260903881EF7AB5B005F8692 /* VDPCodeStackViewController.h */,
+				260903891EF7AB5B005F8692 /* VDPCodeStackViewController.m */,
+			);
+			name = UIStackView;
+			sourceTree = "<group>";
+		};
+		260903BD1EF7AD4C005F8692 /* 后台吊起，需要再次输入密码 */ = {
+			isa = PBXGroup;
+			children = (
+				26021C121ED1884E00263852 /* VDPPasswordInputWindow.h */,
+				26021C131ED1884E00263852 /* VDPPasswordInputWindow.m */,
+			);
+			name = "后台吊起，需要再次输入密码";
+			sourceTree = "<group>";
+		};
+		260903BE1EF7AD75005F8692 /* 导航渐变&自定义数字键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				26EFE4D91DE80F4C002CD83B /* VDPViewController.h */,
+				26EFE4DA1DE80F4C002CD83B /* VDPViewController.m */,
+				263FEBCC1EF22D280051252A /* UIScrollView+VDPTouchUp.h */,
+				263FEBCD1EF22D280051252A /* UIScrollView+VDPTouchUp.m */,
+				263FEBFC1EF272710051252A /* UITextField+VDPCategory.h */,
+				263FEBFD1EF272720051252A /* UITextField+VDPCategory.m */,
+			);
+			name = "导航渐变&自定义数字键盘";
+			sourceTree = "<group>";
+		};
+		260903BF1EF7ADEB005F8692 /* BasicViewController */ = {
+			isa = PBXGroup;
+			children = (
+				261EC1421F010932006E7011 /* UIView+HKYExtension.h */,
+				261EC1431F010932006E7011 /* UIView+HKYExtension.m */,
+				261EC13E1F010889006E7011 /* VDPNavigationController.h */,
+				261EC13F1F010889006E7011 /* VDPNavigationController.m */,
+				2609037A1EF774A3005F8692 /* VDPBasicViewController.h */,
+				2609037B1EF774A3005F8692 /* VDPBasicViewController.m */,
+			);
+			name = BasicViewController;
+			sourceTree = "<group>";
+		};
+		261340971EF8D30F00D970F7 /* 代码混淆&截屏监听&越狱检测 */ = {
+			isa = PBXGroup;
+			children = (
+				261EC1461F010D91006E7011 /* confuseSecond.sh */,
+				261340AD1EF8F22900D970F7 /* confuse.sh */,
+				261340AE1EF8F22900D970F7 /* func.list */,
+				261340A61EF8EDCA00D970F7 /* confuseHeader.h */,
+				26DCE7DB1EFA131200D74F92 /* VDPScreenShotWarning.h */,
+				26DCE7DC1EFA131200D74F92 /* VDPScreenShotWarning.m */,
+				26DCE7ED1EFA4CD500D74F92 /* VDPPrisonBreakWarning.h */,
+				26DCE7EE1EFA4CD500D74F92 /* VDPPrisonBreakWarning.m */,
+			);
+			name = "代码混淆&截屏监听&越狱检测";
+			sourceTree = "<group>";
+		};
+		2619358F1EF0E6CA00EDD76A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				26C861CD1EC99C400019345B /* VDPPersion.h */,
+				26C861CE1EC99C400019345B /* VDPPersion.m */,
+				26DCE8431EFB9B7000D74F92 /* VDPStudent.h */,
+				26DCE8441EFB9B7000D74F92 /* VDPStudent.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		261F61AE1EF36FE300822921 /* VDPTodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				261F61BE1EF3799D00822921 /* VDPTodayExtension.entitlements */,
+				261F61AF1EF36FE300822921 /* TodayViewController.h */,
+				261F61B01EF36FE300822921 /* TodayViewController.m */,
+				261F61B51EF36FE300822921 /* Info.plist */,
+			);
+			path = VDPTodayExtension;
+			sourceTree = "<group>";
+		};
+		2644273B1EA73D8300DB0B3F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2609038C1EF7AC1F005F8692 /* 222_1.jpg */,
+				2609038D1EF7AC1F005F8692 /* 222_5.jpg */,
+				2609038E1EF7AC1F005F8692 /* 222_3.jpg */,
+				2609038F1EF7AC1F005F8692 /* 222_4.jpg */,
+				260903901EF7AC1F005F8692 /* 222_9.jpg */,
+				260903911EF7AC1F005F8692 /* 222_6.jpg */,
+				260903921EF7AC1F005F8692 /* 222_13.jpg */,
+				260903931EF7AC1F005F8692 /* 222_10.jpg */,
+				260903941EF7AC1F005F8692 /* 222_12.jpg */,
+				260903951EF7AC1F005F8692 /* 222_2.jpg */,
+				260903961EF7AC1F005F8692 /* 222_11.jpg */,
+				260903971EF7AC1F005F8692 /* 222_7.jpg */,
+				260903981EF7AC1F005F8692 /* 222_8.jpg */,
+				260903991EF7AC1F005F8692 /* 222_14.jpg */,
+				2609039A1EF7AC1F005F8692 /* 222_15.jpg */,
+				2609039B1EF7AC1F005F8692 /* 222_16.jpg */,
+				26021C191ED190DD00263852 /* iPhonePortraitiOS89_414x736pt@3x.png */,
+				2694FB0E1EA9AD7E00B65CCB /* navi.png */,
+				2644273C1EA73DBF00DB0B3F /* search.png */,
+				2644273D1EA73DBF00DB0B3F /* search@2x.png */,
+				2644273E1EA73DBF00DB0B3F /* search@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		2646E75F1F05E88A00333955 /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2646E7601F05E8BA00333955 /* VDPShareViewController.h */,
+				2646E7611F05E8BA00333955 /* VDPShareViewController.m */,
+				2646E7621F05E8BA00333955 /* VDPShareViewController.xib */,
+			);
+			name = ShareExtension;
+			sourceTree = "<group>";
+		};
+		264B720A1F15C53B00093088 /* VDPShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				26FAEB5B1F15F24800AB5F97 /* VDPShareExtension.entitlements */,
+				26FAEB5F1F15FDC800AB5F97 /* CustomShareViewController.h */,
+				26FAEB601F15FDC800AB5F97 /* CustomShareViewController.m */,
+				26FAEB5C1F15FA4700AB5F97 /* ShareActViewController.h */,
+				26FAEB5D1F15FA4700AB5F97 /* ShareActViewController.m */,
+				264B720B1F15C53B00093088 /* ShareViewController.h */,
+				264B720C1F15C53B00093088 /* ShareViewController.m */,
+				264B720E1F15C53B00093088 /* MainInterface.storyboard */,
+				264B72111F15C53B00093088 /* Info.plist */,
+			);
+			path = VDPShareExtension;
+			sourceTree = "<group>";
+		};
+		268A94C71DEEABB70037A141 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				26CE96011E65713400B6E99D /* JPush */,
+				268A94C81DEEABD70037A141 /* BackLocation */,
+			);
+			name = ThirdLib;
+			path = VencentDeepPockets/ThirdLib;
+			sourceTree = "<group>";
+		};
+		268A94C81DEEABD70037A141 /* BackLocation */ = {
+			isa = PBXGroup;
+			children = (
+				268A94C91DEEAC130037A141 /* BackgroundTaskManager.h */,
+				268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */,
+				268A94CB1DEEAC130037A141 /* LocationShareModel.h */,
+				268A94CD1DEEAC130037A141 /* LocationShareModel.m */,
+				268A94CC1DEEAC130037A141 /* LocationTracker.h */,
+				268A94CE1DEEAC130037A141 /* LocationTracker.m */,
+			);
+			path = BackLocation;
+			sourceTree = "<group>";
+		};
+		268C1D511EF7BA9200BFF551 /* TodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				268C1D561EF7BB3400BFF551 /* VDPAppExtensionViewController.h */,
+				268C1D571EF7BB3400BFF551 /* VDPAppExtensionViewController.m */,
+			);
+			name = TodayExtension;
+			sourceTree = "<group>";
+		};
+		26CE96011E65713400B6E99D /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */,
+				26CE96031E65713400B6E99D /* jpush-ios-3.0.2.a */,
+				26CE96041E65713400B6E99D /* JPUSHService.h */,
+			);
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		26D8A4701EF132EB0007FBA1 /* FileHash */ = {
+			isa = PBXGroup;
+			children = (
+				26D8A4711EF132EB0007FBA1 /* FileHash.h */,
+				26D8A4721EF132EB0007FBA1 /* FileHash.m */,
+			);
+			name = FileHash;
+			path = ../FileHash;
+			sourceTree = "<group>";
+		};
+		26EFE4A01DE7E3DF002CD83B = {
+			isa = PBXGroup;
+			children = (
+				26EFE4AB1DE7E3DF002CD83B /* VencentDeepPockets */,
+				268A94C71DEEABB70037A141 /* ThirdLib */,
+				261F61AE1EF36FE300822921 /* VDPTodayExtension */,
+				264B720A1F15C53B00093088 /* VDPShareExtension */,
+				26FAEB671F15FED000AB5F97 /* VDPActionExtension */,
+				26EFE4AA1DE7E3DF002CD83B /* Products */,
+				14CE9BB9A069A36E63052F86 /* Pods */,
+				EAF0D587B70534A993CF0223 /* Frameworks */,
+				26DCE89A1EFBA5DE00D74F92 /* VencentDeepPockets copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		26EFE4AA1DE7E3DF002CD83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26EFE4A91DE7E3DF002CD83B /* VencentDeepPockets.app */,
+				261F61AB1EF36FE300822921 /* VDPTodayExtension.appex */,
+				26DCE8991EFBA5DD00D74F92 /* VencentDeepPockets_release.app */,
+				264B72091F15C53B00093088 /* VDPShareExtension.appex */,
+				26FAEB661F15FED000AB5F97 /* VDPActionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26EFE4AB1DE7E3DF002CD83B /* VencentDeepPockets */ = {
+			isa = PBXGroup;
+			children = (
+				26CE965E1E657A2B00B6E99D /* VencentDeepPockets.entitlements */,
+				26EFE4AF1DE7E3DF002CD83B /* AppDelegate.h */,
+				26EFE4B01DE7E3DF002CD83B /* AppDelegate.m */,
+				2609036E1EF76BE7005F8692 /* VDPIndexViewController.h */,
+				2609036F1EF76BE7005F8692 /* VDPIndexViewController.m */,
+				26FAEB751F15FF2A00AB5F97 /* ActionExtension */,
+				268C1D511EF7BA9200BFF551 /* TodayExtension */,
+				2646E75F1F05E88A00333955 /* ShareExtension */,
+				261340971EF8D30F00D970F7 /* 代码混淆&截屏监听&越狱检测 */,
+				2619358F1EF0E6CA00EDD76A /* Test */,
+				260903BE1EF7AD75005F8692 /* 导航渐变&自定义数字键盘 */,
+				260903BD1EF7AD4C005F8692 /* 后台吊起，需要再次输入密码 */,
+				260903BC1EF7AD16005F8692 /* UIStackView */,
+				260903461EF766DF005F8692 /* CustomNumberKeyBoard */,
+				26EFE4C31DE7E42C002CD83B /* Encryption */,
+				260903BF1EF7ADEB005F8692 /* BasicViewController */,
+				26EFE4AC1DE7E3DF002CD83B /* Supporting Files */,
+			);
+			path = VencentDeepPockets;
+			sourceTree = "<group>";
+		};
+		26EFE4AC1DE7E3DF002CD83B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2644273B1EA73D8300DB0B3F /* Image */,
+				26EFE4CD1DE7E436002CD83B /* VDPPrefixHeader.pch */,
+				26EFE4AD1DE7E3DF002CD83B /* main.m */,
+				26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */,
+				26EFE4BA1DE7E3DF002CD83B /* LaunchScreen.storyboard */,
+				26EFE4BD1DE7E3DF002CD83B /* Info.plist */,
+				2692D1B91E65B0E6008E4AB6 /* VencentDeepPockets copy2-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26EFE4C31DE7E42C002CD83B /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				26EFE4C81DE7E42C002CD83B /* NSString+VDPSHA.h */,
+				26EFE4C91DE7E42C002CD83B /* NSString+VDPSHA.m */,
+				26EFE4CE1DE7E4D9002CD83B /* AES */,
+				26D8A4701EF132EB0007FBA1 /* FileHash */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		26EFE4CE1DE7E4D9002CD83B /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				26EFE4D11DE7E4D9002CD83B /* NSString+VDPAES.h */,
+				26EFE4D21DE7E4D9002CD83B /* NSString+VDPAES.m */,
+				26EFE4CF1DE7E4D9002CD83B /* NSData+VDPAES.h */,
+				26EFE4D01DE7E4D9002CD83B /* NSData+VDPAES.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		26FAEB671F15FED000AB5F97 /* VDPActionExtension */ = {
+			isa = PBXGroup;
+			children = (
+				26FAEB761F15FF7100AB5F97 /* VDPActionExtension.entitlements */,
+				26FAEB681F15FED000AB5F97 /* ActionViewController.h */,
+				26FAEB691F15FED000AB5F97 /* ActionViewController.m */,
+				26FAEB6B1F15FED000AB5F97 /* MainInterface.storyboard */,
+				26FAEB6E1F15FED000AB5F97 /* Info.plist */,
+			);
+			path = VDPActionExtension;
+			sourceTree = "<group>";
+		};
+		26FAEB751F15FF2A00AB5F97 /* ActionExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ActionExtension;
+			sourceTree = "<group>";
+		};
+		EAF0D587B70534A993CF0223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26CE961D1E65772000B6E99D /* libresolv.tbd */,
+				26CE961B1E65771000B6E99D /* UserNotifications.framework */,
+				26CE96191E6576FB00B6E99D /* libz.tbd */,
+				26CE96171E6576EF00B6E99D /* Security.framework */,
+				26CE96151E6576E800B6E99D /* UIKit.framework */,
+				26CE96131E6576E300B6E99D /* Foundation.framework */,
+				26CE96111E6576DB00B6E99D /* CoreGraphics.framework */,
+				26CE960F1E6576D200B6E99D /* SystemConfiguration.framework */,
+				26CE960D1E6576CC00B6E99D /* CoreTelephony.framework */,
+				26CE960B1E6576C400B6E99D /* CoreFoundation.framework */,
+				26CE96091E6576B400B6E99D /* CFNetwork.framework */,
+				7A64DD2BE098B3E932D7162B /* libPods-VencentDeepPockets.a */,
+				D74C6B27F5B78A8F7024138F /* libPods-VencentDeepPockets copy.a */,
+				261F61AC1EF36FE300822921 /* NotificationCenter.framework */,
+				2AEE4684444AE73B0C236D6D /* libPods-VencentDeepPockets_release.a */,
+				AF3513644CC5529658EDDC38 /* libPods-VDPTodayExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261F61AA1EF36FE300822921 /* VDPTodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261F61BB1EF36FE300822921 /* Build configuration list for PBXNativeTarget "VDPTodayExtension" */;
+			buildPhases = (
+				00A11A54329B25DCC94C6137 /* [CP] Check Pods Manifest.lock */,
+				261F61A71EF36FE300822921 /* Sources */,
+				261F61A81EF36FE300822921 /* Frameworks */,
+				261F61A91EF36FE300822921 /* Resources */,
+				5D4B327CAB70DA41FFAA194D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDPTodayExtension;
+			productName = VDPTodayExtension;
+			productReference = 261F61AB1EF36FE300822921 /* VDPTodayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		264B72081F15C53B00093088 /* VDPShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264B72151F15C53B00093088 /* Build configuration list for PBXNativeTarget "VDPShareExtension" */;
+			buildPhases = (
+				264B72051F15C53B00093088 /* Sources */,
+				264B72061F15C53B00093088 /* Frameworks */,
+				264B72071F15C53B00093088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDPShareExtension;
+			productName = VDPShareExtension;
+			productReference = 264B72091F15C53B00093088 /* VDPShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		26DCE8471EFBA5DD00D74F92 /* VencentDeepPockets_release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DCE8961EFBA5DD00D74F92 /* Build configuration list for PBXNativeTarget "VencentDeepPockets_release" */;
+			buildPhases = (
+				26DCE84A1EFBA5DD00D74F92 /* [CP] Check Pods Manifest.lock */,
+				26DCE84B1EFBA5DD00D74F92 /* [CP] Check Pods Manifest.lock */,
+				26DCE84C1EFBA5DD00D74F92 /* Sources */,
+				26DCE8641EFBA5DD00D74F92 /* Frameworks */,
+				26DCE8741EFBA5DD00D74F92 /* Resources */,
+				26DCE88F1EFBA5DD00D74F92 /* [CP] Embed Pods Frameworks */,
+				26DCE8901EFBA5DD00D74F92 /* [CP] Copy Pods Resources */,
+				26DCE8911EFBA5DD00D74F92 /* 📦 Embed Pods Frameworks */,
+				26DCE8921EFBA5DD00D74F92 /* 📦 Copy Pods Resources */,
+				26DCE8931EFBA5DD00D74F92 /* Embed App Extensions */,
+				26DCE8951EFBA5DD00D74F92 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DCE8481EFBA5DD00D74F92 /* PBXTargetDependency */,
+			);
+			name = VencentDeepPockets_release;
+			productName = VencentDeepPockets;
+			productReference = 26DCE8991EFBA5DD00D74F92 /* VencentDeepPockets_release.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26EFE4A81DE7E3DF002CD83B /* VencentDeepPockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EFE4C01DE7E3DF002CD83B /* Build configuration list for PBXNativeTarget "VencentDeepPockets" */;
+			buildPhases = (
+				F14DA62847C06F9480F8A7E8 /* [CP] Check Pods Manifest.lock */,
+				C86C995A4C31BFF2757EC205 /* [CP] Check Pods Manifest.lock */,
+				26EFE4A51DE7E3DF002CD83B /* Sources */,
+				26EFE4A61DE7E3DF002CD83B /* Frameworks */,
+				26EFE4A71DE7E3DF002CD83B /* Resources */,
+				3A5ED9EF947AEE1BB5A12624 /* [CP] Embed Pods Frameworks */,
+				2F1C948F6F7DB65263B3A816 /* [CP] Copy Pods Resources */,
+				824419CA54A837F1FD5D602F /* 📦 Embed Pods Frameworks */,
+				313BA7F5628E21249B46DB93 /* 📦 Copy Pods Resources */,
+				261F61BC1EF36FE300822921 /* Embed App Extensions */,
+				261340A51EF8ED5300D970F7 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261F61B71EF36FE300822921 /* PBXTargetDependency */,
+				264B72131F15C53B00093088 /* PBXTargetDependency */,
+				26FAEB701F15FED000AB5F97 /* PBXTargetDependency */,
+			);
+			name = VencentDeepPockets;
+			productName = VencentDeepPockets;
+			productReference = 26EFE4A91DE7E3DF002CD83B /* VencentDeepPockets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26FAEB651F15FED000AB5F97 /* VDPActionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FAEB721F15FED000AB5F97 /* Build configuration list for PBXNativeTarget "VDPActionExtension" */;
+			buildPhases = (
+				26FAEB621F15FED000AB5F97 /* Sources */,
+				26FAEB631F15FED000AB5F97 /* Frameworks */,
+				26FAEB641F15FED000AB5F97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDPActionExtension;
+			productName = VDPActionExtension;
+			productReference = 26FAEB661F15FED000AB5F97 /* VDPActionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26EFE4A11DE7E3DF002CD83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VDP;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Vencent;
+				TargetAttributes = {
+					261F61AA1EF36FE300822921 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DH6P4GZ73C;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					264B72081F15C53B00093088 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DH6P4GZ73C;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					26DCE8471EFBA5DD00D74F92 = {
+						DevelopmentTeam = DH6P4GZ73C;
+					};
+					26EFE4A81DE7E3DF002CD83B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DH6P4GZ73C;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					26FAEB651F15FED000AB5F97 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DH6P4GZ73C;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 26EFE4A41DE7E3DF002CD83B /* Build configuration list for PBXProject "VencentDeepPockets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26EFE4A01DE7E3DF002CD83B;
+			productRefGroup = 26EFE4AA1DE7E3DF002CD83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26EFE4A81DE7E3DF002CD83B /* VencentDeepPockets */,
+				26DCE8471EFBA5DD00D74F92 /* VencentDeepPockets_release */,
+				261F61AA1EF36FE300822921 /* VDPTodayExtension */,
+				264B72081F15C53B00093088 /* VDPShareExtension */,
+				26FAEB651F15FED000AB5F97 /* VDPActionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261F61A91EF36FE300822921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FAEB7A1F16075600AB5F97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B72071F15C53B00093088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FAEB791F16075500AB5F97 /* Assets.xcassets in Resources */,
+				264B72101F15C53B00093088 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DCE8741EFBA5DD00D74F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261EC1481F010D91006E7011 /* confuseSecond.sh in Resources */,
+				26DCE8751EFBA5DD00D74F92 /* search@2x.png in Resources */,
+				26DCE8761EFBA5DD00D74F92 /* 222_16.jpg in Resources */,
+				26DCE8771EFBA5DD00D74F92 /* 222_4.jpg in Resources */,
+				26DCE8781EFBA5DD00D74F92 /* 222_11.jpg in Resources */,
+				26DCE8791EFBA5DD00D74F92 /* 222_1.jpg in Resources */,
+				26DCE87A1EFBA5DD00D74F92 /* 222_2.jpg in Resources */,
+				26DCE87B1EFBA5DD00D74F92 /* 222_6.jpg in Resources */,
+				26DCE87C1EFBA5DD00D74F92 /* 222_7.jpg in Resources */,
+				26DCE87D1EFBA5DD00D74F92 /* LaunchScreen.storyboard in Resources */,
+				26DCE87E1EFBA5DD00D74F92 /* confuse.sh in Resources */,
+				26DCE87F1EFBA5DD00D74F92 /* 222_9.jpg in Resources */,
+				26DCE8801EFBA5DD00D74F92 /* 222_3.jpg in Resources */,
+				26DCE8811EFBA5DD00D74F92 /* iPhonePortraitiOS89_414x736pt@3x.png in Resources */,
+				26DCE8821EFBA5DD00D74F92 /* func.list in Resources */,
+				26DCE8831EFBA5DD00D74F92 /* 222_14.jpg in Resources */,
+				26DCE8841EFBA5DD00D74F92 /* search.png in Resources */,
+				26DCE8851EFBA5DD00D74F92 /* 222_10.jpg in Resources */,
+				26DCE8861EFBA5DD00D74F92 /* 222_8.jpg in Resources */,
+				26DCE8871EFBA5DD00D74F92 /* VDPStackViewController.xib in Resources */,
+				26DCE8881EFBA5DD00D74F92 /* search@3x.png in Resources */,
+				26DCE8891EFBA5DD00D74F92 /* Assets.xcassets in Resources */,
+				26DCE88A1EFBA5DD00D74F92 /* navi.png in Resources */,
+				26DCE88B1EFBA5DD00D74F92 /* 222_15.jpg in Resources */,
+				26DCE88C1EFBA5DD00D74F92 /* 222_5.jpg in Resources */,
+				26DCE88D1EFBA5DD00D74F92 /* 222_13.jpg in Resources */,
+				26DCE88E1EFBA5DD00D74F92 /* 222_12.jpg in Resources */,
+				2646E7661F05E8BA00333955 /* VDPShareViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EFE4A71DE7E3DF002CD83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261EC1471F010D91006E7011 /* confuseSecond.sh in Resources */,
+				264427411EA73DBF00DB0B3F /* search@2x.png in Resources */,
+				260903BA1EF7AC1F005F8692 /* 222_16.jpg in Resources */,
+				260903A21EF7AC1F005F8692 /* 222_4.jpg in Resources */,
+				260903B01EF7AC1F005F8692 /* 222_11.jpg in Resources */,
+				2609039C1EF7AC1F005F8692 /* 222_1.jpg in Resources */,
+				260903AE1EF7AC1F005F8692 /* 222_2.jpg in Resources */,
+				260903A61EF7AC1F005F8692 /* 222_6.jpg in Resources */,
+				260903B21EF7AC1F005F8692 /* 222_7.jpg in Resources */,
+				26EFE4BC1DE7E3DF002CD83B /* LaunchScreen.storyboard in Resources */,
+				261340AF1EF8F22900D970F7 /* confuse.sh in Resources */,
+				260903A41EF7AC1F005F8692 /* 222_9.jpg in Resources */,
+				260903A01EF7AC1F005F8692 /* 222_3.jpg in Resources */,
+				26021C1A1ED190DD00263852 /* iPhonePortraitiOS89_414x736pt@3x.png in Resources */,
+				261340B11EF8F22900D970F7 /* func.list in Resources */,
+				260903B61EF7AC1F005F8692 /* 222_14.jpg in Resources */,
+				2644273F1EA73DBF00DB0B3F /* search.png in Resources */,
+				260903AA1EF7AC1F005F8692 /* 222_10.jpg in Resources */,
+				260903B41EF7AC1F005F8692 /* 222_8.jpg in Resources */,
+				260903861EF778E0005F8692 /* VDPStackViewController.xib in Resources */,
+				264427431EA73DBF00DB0B3F /* search@3x.png in Resources */,
+				26EFE4B91DE7E3DF002CD83B /* Assets.xcassets in Resources */,
+				2694FB0F1EA9AD7E00B65CCB /* navi.png in Resources */,
+				260903B81EF7AC1F005F8692 /* 222_15.jpg in Resources */,
+				2609039E1EF7AC1F005F8692 /* 222_5.jpg in Resources */,
+				260903A81EF7AC1F005F8692 /* 222_13.jpg in Resources */,
+				260903AC1EF7AC1F005F8692 /* 222_12.jpg in Resources */,
+				2646E7651F05E8BA00333955 /* VDPShareViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FAEB641F15FED000AB5F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FAEB781F16075400AB5F97 /* Assets.xcassets in Resources */,
+				26FAEB6D1F15FED000AB5F97 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A11A54329B25DCC94C6137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		261340A51EF8ED5300D970F7 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = $PROJECT_DIR/confuse.sh;
+		};
+		26DCE84A1EFBA5DD00D74F92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26DCE84B1EFBA5DD00D74F92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26DCE88F1EFBA5DD00D74F92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets_release/Pods-VencentDeepPockets_release-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DCE8901EFBA5DD00D74F92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets_release/Pods-VencentDeepPockets_release-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DCE8911EFBA5DD00D74F92 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DCE8921EFBA5DD00D74F92 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DCE8951EFBA5DD00D74F92 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = $PROJECT_DIR/confuse.sh;
+		};
+		2F1C948F6F7DB65263B3A816 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		313BA7F5628E21249B46DB93 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A5ED9EF947AEE1BB5A12624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D4B327CAB70DA41FFAA194D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDPTodayExtension/Pods-VDPTodayExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		824419CA54A837F1FD5D602F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VencentDeepPockets/Pods-VencentDeepPockets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86C995A4C31BFF2757EC205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F14DA62847C06F9480F8A7E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261F61A71EF36FE300822921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261F61B11EF36FE300822921 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264B72051F15C53B00093088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264B720D1F15C53B00093088 /* ShareViewController.m in Sources */,
+				26FAEB5E1F15FA4700AB5F97 /* ShareActViewController.m in Sources */,
+				26FAEB611F15FDC800AB5F97 /* CustomShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DCE84C1EFBA5DD00D74F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DCE84D1EFBA5DD00D74F92 /* VDPIndexViewController.m in Sources */,
+				26DCE84E1EFBA5DD00D74F92 /* VDPAppExtensionViewController.m in Sources */,
+				26DCE84F1EFBA5DD00D74F92 /* NSData+VDPAES.m in Sources */,
+				26DCE8501EFBA5DD00D74F92 /* VDPCustomNumberKeyBoard.m in Sources */,
+				26DCE8511EFBA5DD00D74F92 /* VDPCodeStackViewController.m in Sources */,
+				26DCE8521EFBA5DD00D74F92 /* VDPPersion.m in Sources */,
+				26DCE8531EFBA5DD00D74F92 /* NSString+VDPAES.m in Sources */,
+				26DCE8541EFBA5DD00D74F92 /* AppDelegate.m in Sources */,
+				26DCE8551EFBA5DD00D74F92 /* VDPStackViewController.m in Sources */,
+				26DCE8561EFBA5DD00D74F92 /* VDPViewController.m in Sources */,
+				261EC1451F010932006E7011 /* UIView+HKYExtension.m in Sources */,
+				261EC1411F010889006E7011 /* VDPNavigationController.m in Sources */,
+				26DCE8571EFBA5DD00D74F92 /* FileHash.m in Sources */,
+				26DCE8581EFBA5DD00D74F92 /* LocationShareModel.m in Sources */,
+				26DCE8591EFBA5DD00D74F92 /* LocationTracker.m in Sources */,
+				26DCE85A1EFBA5DD00D74F92 /* VDPPasswordInputWindow.m in Sources */,
+				26DCE85B1EFBA5DD00D74F92 /* VDPPrisonBreakWarning.m in Sources */,
+				26DCE85C1EFBA5DD00D74F92 /* BackgroundTaskManager.m in Sources */,
+				26DCE85D1EFBA5DD00D74F92 /* VDPStudent.m in Sources */,
+				26DCE85E1EFBA5DD00D74F92 /* VDPScreenShotWarning.m in Sources */,
+				26DCE85F1EFBA5DD00D74F92 /* UIScrollView+VDPTouchUp.m in Sources */,
+				26DCE8601EFBA5DD00D74F92 /* VDPBasicViewController.m in Sources */,
+				26DCE8611EFBA5DD00D74F92 /* NSString+VDPSHA.m in Sources */,
+				26DCE8621EFBA5DD00D74F92 /* main.m in Sources */,
+				26DCE8631EFBA5DD00D74F92 /* UITextField+VDPCategory.m in Sources */,
+				2646E7641F05E8BA00333955 /* VDPShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26EFE4A51DE7E3DF002CD83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260903701EF76BE7005F8692 /* VDPIndexViewController.m in Sources */,
+				268C1D581EF7BB3400BFF551 /* VDPAppExtensionViewController.m in Sources */,
+				26EFE4D31DE7E4D9002CD83B /* NSData+VDPAES.m in Sources */,
+				263FEBF91EF265320051252A /* VDPCustomNumberKeyBoard.m in Sources */,
+				2609038A1EF7AB5B005F8692 /* VDPCodeStackViewController.m in Sources */,
+				26C861CF1EC99C400019345B /* VDPPersion.m in Sources */,
+				26EFE4D41DE7E4D9002CD83B /* NSString+VDPAES.m in Sources */,
+				26EFE4B11DE7E3DF002CD83B /* AppDelegate.m in Sources */,
+				260903841EF778E0005F8692 /* VDPStackViewController.m in Sources */,
+				26EFE4DB1DE80F4C002CD83B /* VDPViewController.m in Sources */,
+				261EC1441F010932006E7011 /* UIView+HKYExtension.m in Sources */,
+				261EC1401F010889006E7011 /* VDPNavigationController.m in Sources */,
+				26D8A4731EF132EB0007FBA1 /* FileHash.m in Sources */,
+				268A94D01DEEAC130037A141 /* LocationShareModel.m in Sources */,
+				268A94D11DEEAC130037A141 /* LocationTracker.m in Sources */,
+				26021C141ED1884E00263852 /* VDPPasswordInputWindow.m in Sources */,
+				26DCE7EF1EFA4CD500D74F92 /* VDPPrisonBreakWarning.m in Sources */,
+				268A94CF1DEEAC130037A141 /* BackgroundTaskManager.m in Sources */,
+				26DCE8451EFB9B7000D74F92 /* VDPStudent.m in Sources */,
+				26DCE7DD1EFA131200D74F92 /* VDPScreenShotWarning.m in Sources */,
+				263FEBCE1EF22D280051252A /* UIScrollView+VDPTouchUp.m in Sources */,
+				2609037C1EF774A3005F8692 /* VDPBasicViewController.m in Sources */,
+				26EFE4CC1DE7E42C002CD83B /* NSString+VDPSHA.m in Sources */,
+				26EFE4AE1DE7E3DF002CD83B /* main.m in Sources */,
+				263FEBFE1EF272720051252A /* UITextField+VDPCategory.m in Sources */,
+				2646E7631F05E8BA00333955 /* VDPShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FAEB621F15FED000AB5F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FAEB6A1F15FED000AB5F97 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		261F61B71EF36FE300822921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261F61AA1EF36FE300822921 /* VDPTodayExtension */;
+			targetProxy = 261F61B61EF36FE300822921 /* PBXContainerItemProxy */;
+		};
+		264B72131F15C53B00093088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264B72081F15C53B00093088 /* VDPShareExtension */;
+			targetProxy = 264B72121F15C53B00093088 /* PBXContainerItemProxy */;
+		};
+		26DCE8481EFBA5DD00D74F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261F61AA1EF36FE300822921 /* VDPTodayExtension */;
+			targetProxy = 26DCE8491EFBA5DD00D74F92 /* PBXContainerItemProxy */;
+		};
+		26FAEB701F15FED000AB5F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FAEB651F15FED000AB5F97 /* VDPActionExtension */;
+			targetProxy = 26FAEB6F1F15FED000AB5F97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264B720E1F15C53B00093088 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264B720F1F15C53B00093088 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		26EFE4BA1DE7E3DF002CD83B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26EFE4BB1DE7E3DF002CD83B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26FAEB6B1F15FED000AB5F97 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FAEB6C1F15FED000AB5F97 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261F61B91EF36FE300822921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F26F6830257080BA38FE9 /* Pods-VDPTodayExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPTodayExtension/VDPTodayExtension.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VencentDeepPockets/VDPPrefixHeader.pch";
+				INFOPLIST_FILE = VDPTodayExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		261F61BA1EF36FE300822921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296AC33D7A4B79C83B64FEED /* Pods-VDPTodayExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPTodayExtension/VDPTodayExtension.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VencentDeepPockets/VDPPrefixHeader.pch";
+				INFOPLIST_FILE = VDPTodayExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		264B72161F15C53B00093088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPShareExtension/VDPShareExtension.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = VDPShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		264B72171F15C53B00093088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPShareExtension/VDPShareExtension.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = VDPShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		26DCE8971EFBA5DD00D74F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E29301008CFFF84DEE2FFB /* Pods-VencentDeepPockets_release.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VencentDeepPockets/VencentDeepPockets.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialUI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VencentDeepPockets/VDPPrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"VDPRELEASE=1",
+				);
+				INFOPLIST_FILE = "VencentDeepPockets copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/ThirdLib/JPush",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Email",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDKPlugin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/VencentDeepPockets";
+			};
+			name = Debug;
+		};
+		26DCE8981EFBA5DD00D74F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520AEE7919882FEC435EEFDD /* Pods-VencentDeepPockets_release.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VencentDeepPockets/VencentDeepPockets.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialUI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VencentDeepPockets/VDPPrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"VDPRELEASE=1",
+				);
+				INFOPLIST_FILE = "VencentDeepPockets copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/ThirdLib/JPush",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Email",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDKPlugin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/VencentDeepPockets";
+			};
+			name = Release;
+		};
+		26EFE4BE1DE7E3DF002CD83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26EFE4BF1DE7E3DF002CD83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26EFE4C11DE7E3DF002CD83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB9155C692BADEE210DECE4 /* Pods-VencentDeepPockets.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VencentDeepPockets/VencentDeepPockets.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialUI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VencentDeepPockets/VDPPrefixHeader.pch";
+				INFOPLIST_FILE = VencentDeepPockets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/ThirdLib/JPush",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Email",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDKPlugin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/VencentDeepPockets";
+			};
+			name = Debug;
+		};
+		26EFE4C21DE7E3DF002CD83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6EAFB691D10A33CCA88EADF /* Pods-VencentDeepPockets.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VencentDeepPockets/VencentDeepPockets.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialUI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VencentDeepPockets/VDPPrefixHeader.pch";
+				INFOPLIST_FILE = VencentDeepPockets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VencentDeepPockets/ThirdLib/JPush",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Email",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/SMS",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/VencentDeepPockets/UMSocial/UMSocialSDKPlugin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/VencentDeepPockets";
+			};
+			name = Release;
+		};
+		26FAEB731F15FED000AB5F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPActionExtension/VDPActionExtension.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = VDPActionExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26FAEB741F15FED000AB5F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPActionExtension/VDPActionExtension.entitlements;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = VDPActionExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261F61BB1EF36FE300822921 /* Build configuration list for PBXNativeTarget "VDPTodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261F61B91EF36FE300822921 /* Debug */,
+				261F61BA1EF36FE300822921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264B72151F15C53B00093088 /* Build configuration list for PBXNativeTarget "VDPShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264B72161F15C53B00093088 /* Debug */,
+				264B72171F15C53B00093088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DCE8961EFBA5DD00D74F92 /* Build configuration list for PBXNativeTarget "VencentDeepPockets_release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DCE8971EFBA5DD00D74F92 /* Debug */,
+				26DCE8981EFBA5DD00D74F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EFE4A41DE7E3DF002CD83B /* Build configuration list for PBXProject "VencentDeepPockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EFE4BE1DE7E3DF002CD83B /* Debug */,
+				26EFE4BF1DE7E3DF002CD83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EFE4C01DE7E3DF002CD83B /* Build configuration list for PBXNativeTarget "VencentDeepPockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EFE4C11DE7E3DF002CD83B /* Debug */,
+				26EFE4C21DE7E3DF002CD83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FAEB721F15FED000AB5F97 /* Build configuration list for PBXNativeTarget "VDPActionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FAEB731F15FED000AB5F97 /* Debug */,
+				26FAEB741F15FED000AB5F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26EFE4A11DE7E3DF002CD83B /* Project object */;
+}
