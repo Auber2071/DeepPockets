@@ -12,6 +12,7 @@ static NSString *kTodayExtensionAddSomething;
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, strong) NSString *test;
 
 
 
