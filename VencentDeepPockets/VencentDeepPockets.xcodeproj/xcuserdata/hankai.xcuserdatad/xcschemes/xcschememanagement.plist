@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>VDPActionNOUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>VDPShareExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>264B72081F15C53B00093088</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26AD7A991F17775400759D3B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

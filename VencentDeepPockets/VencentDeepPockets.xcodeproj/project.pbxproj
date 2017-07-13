@@ -60,6 +60,9 @@
 		268A94D11DEEAC130037A141 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CE1DEEAC130037A141 /* LocationTracker.m */; };
 		268C1D581EF7BB3400BFF551 /* VDPAppExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C1D571EF7BB3400BFF551 /* VDPAppExtensionViewController.m */; };
 		2694FB0F1EA9AD7E00B65CCB /* navi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2694FB0E1EA9AD7E00B65CCB /* navi.png */; };
+		26AD7A9E1F17775400759D3B /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AD7A9D1F17775400759D3B /* ActionRequestHandler.m */; };
+		26AD7AA01F17775400759D3B /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 26AD7A9F1F17775400759D3B /* Action.js */; };
+		26AD7AA41F17775400759D3B /* VDPActionNOUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26AD7A9A1F17775400759D3B /* VDPActionNOUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		26C861CF1EC99C400019345B /* VDPPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C861CE1EC99C400019345B /* VDPPersion.m */; };
 		26CA54461F162F5500B49D18 /* VencentDeepPockets copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CA54451F162F5500B49D18 /* VencentDeepPockets copy-Info.plist */; };
 		26CE96051E65713400B6E99D /* jcore-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */; };
@@ -180,6 +183,13 @@
 			remoteGlobalIDString = 264B72081F15C53B00093088;
 			remoteInfo = VDPShareExtension;
 		};
+		26AD7AA21F17775400759D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26EFE4A11DE7E3DF002CD83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26AD7A991F17775400759D3B;
+			remoteInfo = VDPActionNOUI;
+		};
 		26DCE8491EFBA5DD00D74F92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26EFE4A11DE7E3DF002CD83B /* Project object */;
@@ -205,6 +215,7 @@
 			files = (
 				26FAEB711F15FED000AB5F97 /* VDPActionExtension.appex in Embed App Extensions */,
 				261F61B81EF36FE300822921 /* VDPTodayExtension.appex in Embed App Extensions */,
+				26AD7AA41F17775400759D3B /* VDPActionNOUI.appex in Embed App Extensions */,
 				264B72141F15C53B00093088 /* VDPShareExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -294,6 +305,11 @@
 		268C1D571EF7BB3400BFF551 /* VDPAppExtensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPAppExtensionViewController.m; sourceTree = "<group>"; };
 		2692D1B91E65B0E6008E4AB6 /* VencentDeepPockets copy2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VencentDeepPockets copy2-Info.plist"; sourceTree = "<group>"; };
 		2694FB0E1EA9AD7E00B65CCB /* navi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi.png; sourceTree = "<group>"; };
+		26AD7A9A1F17775400759D3B /* VDPActionNOUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VDPActionNOUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AD7A9C1F17775400759D3B /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		26AD7A9D1F17775400759D3B /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		26AD7A9F1F17775400759D3B /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		26AD7AA11F17775400759D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26C861CD1EC99C400019345B /* VDPPersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPPersion.h; sourceTree = "<group>"; };
 		26C861CE1EC99C400019345B /* VDPPersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPPersion.m; sourceTree = "<group>"; };
 		26CA54451F162F5500B49D18 /* VencentDeepPockets copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VencentDeepPockets copy-Info.plist"; sourceTree = "<group>"; };
@@ -372,6 +388,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		264B72061F15C53B00093088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AD7A971F17775400759D3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -627,6 +650,17 @@
 			name = TodayExtension;
 			sourceTree = "<group>";
 		};
+		26AD7A9B1F17775400759D3B /* VDPActionNOUI */ = {
+			isa = PBXGroup;
+			children = (
+				26AD7A9C1F17775400759D3B /* ActionRequestHandler.h */,
+				26AD7A9D1F17775400759D3B /* ActionRequestHandler.m */,
+				26AD7A9F1F17775400759D3B /* Action.js */,
+				26AD7AA11F17775400759D3B /* Info.plist */,
+			);
+			path = VDPActionNOUI;
+			sourceTree = "<group>";
+		};
 		26CE96011E65713400B6E99D /* JPush */ = {
 			isa = PBXGroup;
 			children = (
@@ -655,6 +689,7 @@
 				261F61AE1EF36FE300822921 /* VDPTodayExtension */,
 				264B720A1F15C53B00093088 /* VDPShareExtension */,
 				26FAEB671F15FED000AB5F97 /* VDPActionExtension */,
+				26AD7A9B1F17775400759D3B /* VDPActionNOUI */,
 				26EFE4AA1DE7E3DF002CD83B /* Products */,
 				14CE9BB9A069A36E63052F86 /* Pods */,
 				EAF0D587B70534A993CF0223 /* Frameworks */,
@@ -670,6 +705,7 @@
 				26DCE8991EFBA5DD00D74F92 /* VencentDeepPockets_release.app */,
 				264B72091F15C53B00093088 /* VDPShareExtension.appex */,
 				26FAEB661F15FED000AB5F97 /* VDPActionExtension.appex */,
+				26AD7A9A1F17775400759D3B /* VDPActionNOUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -815,6 +851,23 @@
 			productReference = 264B72091F15C53B00093088 /* VDPShareExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		26AD7A991F17775400759D3B /* VDPActionNOUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AD7AA71F17775400759D3B /* Build configuration list for PBXNativeTarget "VDPActionNOUI" */;
+			buildPhases = (
+				26AD7A961F17775400759D3B /* Sources */,
+				26AD7A971F17775400759D3B /* Frameworks */,
+				26AD7A981F17775400759D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDPActionNOUI;
+			productName = VDPActionNOUI;
+			productReference = 26AD7A9A1F17775400759D3B /* VDPActionNOUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		26DCE8471EFBA5DD00D74F92 /* VencentDeepPockets_release */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26DCE8961EFBA5DD00D74F92 /* Build configuration list for PBXNativeTarget "VencentDeepPockets_release" */;
@@ -863,6 +916,7 @@
 				261F61B71EF36FE300822921 /* PBXTargetDependency */,
 				264B72131F15C53B00093088 /* PBXTargetDependency */,
 				26FAEB701F15FED000AB5F97 /* PBXTargetDependency */,
+				26AD7AA31F17775400759D3B /* PBXTargetDependency */,
 			);
 			name = VencentDeepPockets;
 			productName = VencentDeepPockets;
@@ -916,6 +970,11 @@
 							};
 						};
 					};
+					26AD7A991F17775400759D3B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DH6P4GZ73C;
+						ProvisioningStyle = Automatic;
+					};
 					26DCE8471EFBA5DD00D74F92 = {
 						DevelopmentTeam = DH6P4GZ73C;
 					};
@@ -965,6 +1024,7 @@
 				261F61AA1EF36FE300822921 /* VDPTodayExtension */,
 				264B72081F15C53B00093088 /* VDPShareExtension */,
 				26FAEB651F15FED000AB5F97 /* VDPActionExtension */,
+				26AD7A991F17775400759D3B /* VDPActionNOUI */,
 			);
 		};
 /* End PBXProject section */
@@ -984,6 +1044,14 @@
 			files = (
 				26FAEB791F16075500AB5F97 /* Assets.xcassets in Resources */,
 				264B72101F15C53B00093088 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AD7A981F17775400759D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AD7AA01F17775400759D3B /* Action.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1329,6 +1397,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26AD7A961F17775400759D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AD7A9E1F17775400759D3B /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26DCE84C1EFBA5DD00D74F92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1415,6 +1491,11 @@
 			isa = PBXTargetDependency;
 			target = 264B72081F15C53B00093088 /* VDPShareExtension */;
 			targetProxy = 264B72121F15C53B00093088 /* PBXContainerItemProxy */;
+		};
+		26AD7AA31F17775400759D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26AD7A991F17775400759D3B /* VDPActionNOUI */;
+			targetProxy = 26AD7AA21F17775400759D3B /* PBXContainerItemProxy */;
 		};
 		26DCE8481EFBA5DD00D74F92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1525,6 +1606,36 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		26AD7AA51F17775400759D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				INFOPLIST_FILE = VDPActionNOUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPActionNOUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26AD7AA61F17775400759D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				INFOPLIST_FILE = VDPActionNOUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vencent.VencentDeepPockets.VDPActionNOUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1820,6 +1931,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		26AD7AA71F17775400759D3B /* Build configuration list for PBXNativeTarget "VDPActionNOUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AD7AA51F17775400759D3B /* Debug */,
+				26AD7AA61F17775400759D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		26DCE8961EFBA5DD00D74F92 /* Build configuration list for PBXNativeTarget "VencentDeepPockets_release" */ = {
 			isa = XCConfigurationList;
