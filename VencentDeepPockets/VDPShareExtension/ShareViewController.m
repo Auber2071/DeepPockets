@@ -38,9 +38,11 @@
     [self.extensionContext.inputItems enumerateObjectsUsingBlock:^(NSExtensionItem * _Nonnull extItem, NSUInteger idx, BOOL * _Nonnull stop){
         [extItem.attachments enumerateObjectsUsingBlock:^(NSItemProvider * _Nonnull itemProvider, NSUInteger idx, BOOL * _Nonnull stop) {
             if ([itemProvider hasItemConformingToTypeIdentifier:@"public.url"]) {
+                
                 [itemProvider loadItemForTypeIdentifier:@"public.url"
                                                 options:nil
                                       completionHandler:^(id<NSSecureCoding>  _Nullable item, NSError * _Null_unspecified error) {
+                                          
                                           if ([(NSObject *)item isKindOfClass:[NSURL class]]) {
                                               NSLog(@"分享的URL = %@", item);
                                               NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.VDPShareExtension"];
@@ -72,6 +74,8 @@
     
 }
 
+
+//配置分享面板
 - (NSArray *)configurationItems {
     // To add configuration options via table cells at the bottom of the sheet, return an array of SLComposeSheetConfigurationItem here.
     

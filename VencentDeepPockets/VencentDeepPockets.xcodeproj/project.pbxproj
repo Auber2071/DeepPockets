@@ -42,6 +42,11 @@
 		261F61AD1EF36FE300822921 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261F61AC1EF36FE300822921 /* NotificationCenter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		261F61B11EF36FE300822921 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F61B01EF36FE300822921 /* TodayViewController.m */; };
 		261F61B81EF36FE300822921 /* VDPTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 261F61AB1EF36FE300822921 /* VDPTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26359F241F1CA317006132F5 /* testAction.js in Resources */ = {isa = PBXBuildFile; fileRef = 26359F231F1CA317006132F5 /* testAction.js */; };
+		26359F2D1F1D9C8E006132F5 /* HPGTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 26359F291F1D9C8E006132F5 /* HPGTMBase64.m */; };
+		26359F2E1F1D9C8E006132F5 /* HPGTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 26359F291F1D9C8E006132F5 /* HPGTMBase64.m */; };
+		26359F2F1F1D9C8E006132F5 /* HPEncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26359F2C1F1D9C8E006132F5 /* HPEncryptionHelper.m */; };
+		26359F301F1D9C8E006132F5 /* HPEncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26359F2C1F1D9C8E006132F5 /* HPEncryptionHelper.m */; };
 		263FEBCE1EF22D280051252A /* UIScrollView+VDPTouchUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBCD1EF22D280051252A /* UIScrollView+VDPTouchUp.m */; };
 		263FEBF91EF265320051252A /* VDPCustomNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBF81EF265320051252A /* VDPCustomNumberKeyBoard.m */; };
 		263FEBFE1EF272720051252A /* UITextField+VDPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FEBFD1EF272720051252A /* UITextField+VDPCategory.m */; };
@@ -278,6 +283,13 @@
 		261F61B01EF36FE300822921 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		261F61B51EF36FE300822921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		261F61BE1EF3799D00822921 /* VDPTodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VDPTodayExtension.entitlements; sourceTree = "<group>"; };
+		26359F221F1C8F5E006132F5 /* VDPActionNOUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VDPActionNOUI.entitlements; sourceTree = "<group>"; };
+		26359F231F1CA317006132F5 /* testAction.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = testAction.js; sourceTree = "<group>"; };
+		26359F281F1D9C8E006132F5 /* HPGTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGTMBase64.h; sourceTree = "<group>"; };
+		26359F291F1D9C8E006132F5 /* HPGTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGTMBase64.m; sourceTree = "<group>"; };
+		26359F2A1F1D9C8E006132F5 /* HPGTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGTMDefines.h; sourceTree = "<group>"; };
+		26359F2B1F1D9C8E006132F5 /* HPEncryptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPEncryptionHelper.h; sourceTree = "<group>"; };
+		26359F2C1F1D9C8E006132F5 /* HPEncryptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPEncryptionHelper.m; sourceTree = "<group>"; };
 		263FEBCC1EF22D280051252A /* UIScrollView+VDPTouchUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VDPTouchUp.h"; sourceTree = "<group>"; };
 		263FEBCD1EF22D280051252A /* UIScrollView+VDPTouchUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VDPTouchUp.m"; sourceTree = "<group>"; };
 		263FEBF71EF265320051252A /* VDPCustomNumberKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPCustomNumberKeyBoard.h; sourceTree = "<group>"; };
@@ -564,6 +576,16 @@
 			path = VDPTodayExtension;
 			sourceTree = "<group>";
 		};
+		26359F271F1D9C8E006132F5 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				26359F281F1D9C8E006132F5 /* HPGTMBase64.h */,
+				26359F291F1D9C8E006132F5 /* HPGTMBase64.m */,
+				26359F2A1F1D9C8E006132F5 /* HPGTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
 		2644273B1EA73D8300DB0B3F /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -608,10 +630,10 @@
 				26FAEB5B1F15F24800AB5F97 /* VDPShareExtension.entitlements */,
 				26FAEB5F1F15FDC800AB5F97 /* CustomShareViewController.h */,
 				26FAEB601F15FDC800AB5F97 /* CustomShareViewController.m */,
-				26FAEB5C1F15FA4700AB5F97 /* ShareActViewController.h */,
-				26FAEB5D1F15FA4700AB5F97 /* ShareActViewController.m */,
 				264B720B1F15C53B00093088 /* ShareViewController.h */,
 				264B720C1F15C53B00093088 /* ShareViewController.m */,
+				26FAEB5C1F15FA4700AB5F97 /* ShareActViewController.h */,
+				26FAEB5D1F15FA4700AB5F97 /* ShareActViewController.m */,
 				264B720E1F15C53B00093088 /* MainInterface.storyboard */,
 				264B72111F15C53B00093088 /* Info.plist */,
 			);
@@ -653,6 +675,7 @@
 		26AD7A9B1F17775400759D3B /* VDPActionNOUI */ = {
 			isa = PBXGroup;
 			children = (
+				26359F221F1C8F5E006132F5 /* VDPActionNOUI.entitlements */,
 				26AD7A9C1F17775400759D3B /* ActionRequestHandler.h */,
 				26AD7A9D1F17775400759D3B /* ActionRequestHandler.m */,
 				26AD7A9F1F17775400759D3B /* Action.js */,
@@ -751,6 +774,9 @@
 		26EFE4C31DE7E42C002CD83B /* Encryption */ = {
 			isa = PBXGroup;
 			children = (
+				26359F2B1F1D9C8E006132F5 /* HPEncryptionHelper.h */,
+				26359F2C1F1D9C8E006132F5 /* HPEncryptionHelper.m */,
+				26359F271F1D9C8E006132F5 /* GTMBase64 */,
 				26EFE4C81DE7E42C002CD83B /* NSString+VDPSHA.h */,
 				26EFE4C91DE7E42C002CD83B /* NSString+VDPSHA.m */,
 				26EFE4CE1DE7E4D9002CD83B /* AES */,
@@ -778,6 +804,7 @@
 				26FAEB691F15FED000AB5F97 /* ActionViewController.m */,
 				26FAEB6B1F15FED000AB5F97 /* MainInterface.storyboard */,
 				26FAEB6E1F15FED000AB5F97 /* Info.plist */,
+				26359F231F1CA317006132F5 /* testAction.js */,
 			);
 			path = VDPActionExtension;
 			sourceTree = "<group>";
@@ -974,6 +1001,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = DH6P4GZ73C;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					26DCE8471EFBA5DD00D74F92 = {
 						DevelopmentTeam = DH6P4GZ73C;
@@ -1131,6 +1163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26FAEB781F16075400AB5F97 /* Assets.xcassets in Resources */,
+				26359F241F1CA317006132F5 /* testAction.js in Resources */,
 				26FAEB6D1F15FED000AB5F97 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1415,11 +1448,13 @@
 				26DCE8501EFBA5DD00D74F92 /* VDPCustomNumberKeyBoard.m in Sources */,
 				26DCE8511EFBA5DD00D74F92 /* VDPCodeStackViewController.m in Sources */,
 				26DCE8521EFBA5DD00D74F92 /* VDPPersion.m in Sources */,
+				26359F301F1D9C8E006132F5 /* HPEncryptionHelper.m in Sources */,
 				26DCE8531EFBA5DD00D74F92 /* NSString+VDPAES.m in Sources */,
 				26DCE8541EFBA5DD00D74F92 /* AppDelegate.m in Sources */,
 				26DCE8551EFBA5DD00D74F92 /* VDPStackViewController.m in Sources */,
 				26DCE8561EFBA5DD00D74F92 /* VDPViewController.m in Sources */,
 				261EC1451F010932006E7011 /* UIView+HKYExtension.m in Sources */,
+				26359F2E1F1D9C8E006132F5 /* HPGTMBase64.m in Sources */,
 				261EC1411F010889006E7011 /* VDPNavigationController.m in Sources */,
 				26DCE8571EFBA5DD00D74F92 /* FileHash.m in Sources */,
 				26DCE8581EFBA5DD00D74F92 /* LocationShareModel.m in Sources */,
@@ -1448,11 +1483,13 @@
 				263FEBF91EF265320051252A /* VDPCustomNumberKeyBoard.m in Sources */,
 				2609038A1EF7AB5B005F8692 /* VDPCodeStackViewController.m in Sources */,
 				26C861CF1EC99C400019345B /* VDPPersion.m in Sources */,
+				26359F2F1F1D9C8E006132F5 /* HPEncryptionHelper.m in Sources */,
 				26EFE4D41DE7E4D9002CD83B /* NSString+VDPAES.m in Sources */,
 				26EFE4B11DE7E3DF002CD83B /* AppDelegate.m in Sources */,
 				260903841EF778E0005F8692 /* VDPStackViewController.m in Sources */,
 				26EFE4DB1DE80F4C002CD83B /* VDPViewController.m in Sources */,
 				261EC1441F010932006E7011 /* UIView+HKYExtension.m in Sources */,
+				26359F2D1F1D9C8E006132F5 /* HPGTMBase64.m in Sources */,
 				261EC1401F010889006E7011 /* VDPNavigationController.m in Sources */,
 				26D8A4731EF132EB0007FBA1 /* FileHash.m in Sources */,
 				268A94D01DEEAC130037A141 /* LocationShareModel.m in Sources */,
@@ -1616,6 +1653,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPActionNOUI/VDPActionNOUI.entitlements;
 				DEVELOPMENT_TEAM = DH6P4GZ73C;
 				INFOPLIST_FILE = VDPActionNOUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1631,6 +1669,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = VDPActionNOUI/VDPActionNOUI.entitlements;
 				DEVELOPMENT_TEAM = DH6P4GZ73C;
 				INFOPLIST_FILE = VDPActionNOUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1939,6 +1978,7 @@
 				26AD7AA61F17775400759D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26DCE8961EFBA5DD00D74F92 /* Build configuration list for PBXNativeTarget "VencentDeepPockets_release" */ = {
 			isa = XCConfigurationList;
