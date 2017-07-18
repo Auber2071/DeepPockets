@@ -6,6 +6,8 @@
 	<array>
 		<string>group.GoodMorning</string>
 		<string>group.VDPShareExtension</string>
+		<string>group.VDPNOActionUI</string>
+		<string>group.VDPActionExtension</string>
 	</array>
 </dict>
 </plist>

@@ -4,7 +4,7 @@
 //
 //  Created by hankai on 2017/7/13.
 //  Copyright © 2017年 Vencent. All rights reserved.
-//
+//  扩展处理类的实现文件，处理扩展实际的业务逻辑。
 
 #import "ActionRequestHandler.h"
 #import <MobileCoreServices/MobileCoreServices.h>
@@ -12,25 +12,34 @@
 @interface ActionRequestHandler ()
 
 @property (nonatomic, strong) NSExtensionContext *extensionContext;
+@property (nonatomic, strong) NSString *text;
 
 @end
 
 @implementation ActionRequestHandler
 
+// NSExtensionRequestHandling   协议 required
+// 点击扩展图标的时候就会触发这个方法，并将扩展的上下文作为参数进行回调
 - (void)beginRequestWithExtensionContext:(NSExtensionContext *)context {
     // Do not call super in an Action extension with no user interface
     self.extensionContext = context;
     
     BOOL found = NO;
-    
+    __weak typeof(self) weakSelf = self;
     // Find the item containing the results from the JavaScript preprocessing.
     for (NSExtensionItem *item in self.extensionContext.inputItems) {
         for (NSItemProvider *itemProvider in item.attachments) {
             if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypePropertyList]) {
+                
                 [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypePropertyList options:nil completionHandler:^(NSDictionary *dictionary, NSError *error) {
+                    
+                    NSDictionary *jsData = dictionary[NSExtensionJavaScriptPreprocessingResultsKey];
+                    weakSelf.text = jsData[@"text"];
+                
                     [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                        [self itemLoadCompletedWithPreprocessingResults:dictionary[NSExtensionJavaScriptPreprocessingResultsKey]];
+                        [weakSelf itemLoadCompletedWithPreprocessingResults:dictionary[NSExtensionJavaScriptPreprocessingResultsKey]];
                     }];
+                    
                 }];
                 found = YES;
             }
@@ -56,11 +65,13 @@
     // dictionary to send back with a desired new background color style.
     if ([javaScriptPreprocessingResults[@"currentBackgroundColor"] length] == 0) {
         // No specific background color? Request setting the background to red.
-        [self doneWithResults:@{ @"newBackgroundColor": @"red" }];
+        [self doneWithResults:@{ @"newBackgroundColor": @"red", @"explain" : @"问我之前请先百度一下", @"text" : self.text}];
     } else {
         // Specific background color is set? Request replacing it with green.
         [self doneWithResults:@{ @"newBackgroundColor": @"green" }];
     }
+    
+    
 }
 
 - (void)doneWithResults:(NSDictionary *)resultsForJavaScriptFinalize {
