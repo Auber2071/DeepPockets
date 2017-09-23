@@ -33,6 +33,8 @@
 		260903BA1EF7AC1F005F8692 /* 222_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2609039B1EF7AC1F005F8692 /* 222_16.jpg */; };
 		261340AF1EF8F22900D970F7 /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 261340AD1EF8F22900D970F7 /* confuse.sh */; };
 		261340B11EF8F22900D970F7 /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 261340AE1EF8F22900D970F7 /* func.list */; };
+		2615A2801F3344D7007DA519 /* VDPUpdateFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2615A27F1F3344D7007DA519 /* VDPUpdateFileViewController.m */; };
+		2615A2811F3344D7007DA519 /* VDPUpdateFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2615A27F1F3344D7007DA519 /* VDPUpdateFileViewController.m */; };
 		261EC1401F010889006E7011 /* VDPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261EC13F1F010889006E7011 /* VDPNavigationController.m */; };
 		261EC1411F010889006E7011 /* VDPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261EC13F1F010889006E7011 /* VDPNavigationController.m */; };
 		261EC1441F010932006E7011 /* UIView+HKYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 261EC1431F010932006E7011 /* UIView+HKYExtension.m */; };
@@ -55,6 +57,8 @@
 		264B720D1F15C53B00093088 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264B720C1F15C53B00093088 /* ShareViewController.m */; };
 		264B72101F15C53B00093088 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264B720E1F15C53B00093088 /* MainInterface.storyboard */; };
 		264B72141F15C53B00093088 /* VDPShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 264B72091F15C53B00093088 /* VDPShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2664AC171F4D625F003A3D70 /* VDPSeparateNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664AC161F4D625F003A3D70 /* VDPSeparateNaviViewController.m */; };
+		2664AC181F4D625F003A3D70 /* VDPSeparateNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664AC161F4D625F003A3D70 /* VDPSeparateNaviViewController.m */; };
 		268A94CF1DEEAC130037A141 /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */; };
 		268A94D01DEEAC130037A141 /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CD1DEEAC130037A141 /* LocationShareModel.m */; };
 		268A94D11DEEAC130037A141 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CE1DEEAC130037A141 /* LocationTracker.m */; };
@@ -267,6 +271,8 @@
 		261340A61EF8EDCA00D970F7 /* confuseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = confuseHeader.h; sourceTree = "<group>"; };
 		261340AD1EF8F22900D970F7 /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = SOURCE_ROOT; };
 		261340AE1EF8F22900D970F7 /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = SOURCE_ROOT; };
+		2615A27E1F3344D7007DA519 /* VDPUpdateFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPUpdateFileViewController.h; sourceTree = "<group>"; };
+		2615A27F1F3344D7007DA519 /* VDPUpdateFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPUpdateFileViewController.m; sourceTree = "<group>"; };
 		261EC13E1F010889006E7011 /* VDPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPNavigationController.h; sourceTree = "<group>"; };
 		261EC13F1F010889006E7011 /* VDPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPNavigationController.m; sourceTree = "<group>"; };
 		261EC1421F010932006E7011 /* UIView+HKYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HKYExtension.h"; sourceTree = "<group>"; };
@@ -278,6 +284,7 @@
 		261F61B01EF36FE300822921 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		261F61B51EF36FE300822921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		261F61BE1EF3799D00822921 /* VDPTodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VDPTodayExtension.entitlements; sourceTree = "<group>"; };
+		26359F321F1DA0A3006132F5 /* NoThing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoThing.m; sourceTree = "<group>"; };
 		263FEBCC1EF22D280051252A /* UIScrollView+VDPTouchUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VDPTouchUp.h"; sourceTree = "<group>"; };
 		263FEBCD1EF22D280051252A /* UIScrollView+VDPTouchUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VDPTouchUp.m"; sourceTree = "<group>"; };
 		263FEBF71EF265320051252A /* VDPCustomNumberKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPCustomNumberKeyBoard.h; sourceTree = "<group>"; };
@@ -295,6 +302,8 @@
 		264B720C1F15C53B00093088 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		264B720F1F15C53B00093088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		264B72111F15C53B00093088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2664AC151F4D625F003A3D70 /* VDPSeparateNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPSeparateNaviViewController.h; sourceTree = "<group>"; };
+		2664AC161F4D625F003A3D70 /* VDPSeparateNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPSeparateNaviViewController.m; sourceTree = "<group>"; };
 		268A94C91DEEAC130037A141 /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
 		268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
 		268A94CB1DEEAC130037A141 /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
@@ -504,6 +513,8 @@
 		260903BE1EF7AD75005F8692 /* 导航渐变&自定义数字键盘 */ = {
 			isa = PBXGroup;
 			children = (
+				2664AC151F4D625F003A3D70 /* VDPSeparateNaviViewController.h */,
+				2664AC161F4D625F003A3D70 /* VDPSeparateNaviViewController.m */,
 				26EFE4D91DE80F4C002CD83B /* VDPViewController.h */,
 				26EFE4DA1DE80F4C002CD83B /* VDPViewController.m */,
 				263FEBCC1EF22D280051252A /* UIScrollView+VDPTouchUp.h */,
@@ -542,6 +553,15 @@
 			name = "代码混淆&截屏监听&越狱检测";
 			sourceTree = "<group>";
 		};
+		2615A27D1F33449A007DA519 /* 上传文件原理 */ = {
+			isa = PBXGroup;
+			children = (
+				2615A27E1F3344D7007DA519 /* VDPUpdateFileViewController.h */,
+				2615A27F1F3344D7007DA519 /* VDPUpdateFileViewController.m */,
+			);
+			name = "上传文件原理";
+			sourceTree = "<group>";
+		};
 		2619358F1EF0E6CA00EDD76A /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +582,13 @@
 				261F61B51EF36FE300822921 /* Info.plist */,
 			);
 			path = VDPTodayExtension;
+			sourceTree = "<group>";
+		};
+		2636ADA51F42873400979353 /* GenericKeychain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GenericKeychain;
 			sourceTree = "<group>";
 		};
 		2644273B1EA73D8300DB0B3F /* Image */ = {
@@ -713,17 +740,19 @@
 		26EFE4AB1DE7E3DF002CD83B /* VencentDeepPockets */ = {
 			isa = PBXGroup;
 			children = (
+				26359F321F1DA0A3006132F5 /* NoThing.m */,
 				26CE965E1E657A2B00B6E99D /* VencentDeepPockets.entitlements */,
 				26EFE4AF1DE7E3DF002CD83B /* AppDelegate.h */,
 				26EFE4B01DE7E3DF002CD83B /* AppDelegate.m */,
 				2609036E1EF76BE7005F8692 /* VDPIndexViewController.h */,
 				2609036F1EF76BE7005F8692 /* VDPIndexViewController.m */,
-				26FAEB751F15FF2A00AB5F97 /* ActionExtension */,
+				2636ADA51F42873400979353 /* GenericKeychain */,
+				2615A27D1F33449A007DA519 /* 上传文件原理 */,
+				260903BE1EF7AD75005F8692 /* 导航渐变&自定义数字键盘 */,
 				268C1D511EF7BA9200BFF551 /* TodayExtension */,
 				2646E75F1F05E88A00333955 /* ShareExtension */,
 				261340971EF8D30F00D970F7 /* 代码混淆&截屏监听&越狱检测 */,
 				2619358F1EF0E6CA00EDD76A /* Test */,
-				260903BE1EF7AD75005F8692 /* 导航渐变&自定义数字键盘 */,
 				260903BD1EF7AD4C005F8692 /* 后台吊起，需要再次输入密码 */,
 				260903BC1EF7AD16005F8692 /* UIStackView */,
 				260903461EF766DF005F8692 /* CustomNumberKeyBoard */,
@@ -780,13 +809,6 @@
 				26FAEB6E1F15FED000AB5F97 /* Info.plist */,
 			);
 			path = VDPActionExtension;
-			sourceTree = "<group>";
-		};
-		26FAEB751F15FF2A00AB5F97 /* ActionExtension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ActionExtension;
 			sourceTree = "<group>";
 		};
 		EAF0D587B70534A993CF0223 /* Frameworks */ = {
@@ -1420,12 +1442,14 @@
 				26DCE8551EFBA5DD00D74F92 /* VDPStackViewController.m in Sources */,
 				26DCE8561EFBA5DD00D74F92 /* VDPViewController.m in Sources */,
 				261EC1451F010932006E7011 /* UIView+HKYExtension.m in Sources */,
+				2615A2811F3344D7007DA519 /* VDPUpdateFileViewController.m in Sources */,
 				261EC1411F010889006E7011 /* VDPNavigationController.m in Sources */,
 				26DCE8571EFBA5DD00D74F92 /* FileHash.m in Sources */,
 				26DCE8581EFBA5DD00D74F92 /* LocationShareModel.m in Sources */,
 				26DCE8591EFBA5DD00D74F92 /* LocationTracker.m in Sources */,
 				26DCE85A1EFBA5DD00D74F92 /* VDPPasswordInputWindow.m in Sources */,
 				26DCE85B1EFBA5DD00D74F92 /* VDPPrisonBreakWarning.m in Sources */,
+				2664AC181F4D625F003A3D70 /* VDPSeparateNaviViewController.m in Sources */,
 				26DCE85C1EFBA5DD00D74F92 /* BackgroundTaskManager.m in Sources */,
 				26DCE85D1EFBA5DD00D74F92 /* VDPStudent.m in Sources */,
 				26DCE85E1EFBA5DD00D74F92 /* VDPScreenShotWarning.m in Sources */,
@@ -1453,12 +1477,14 @@
 				260903841EF778E0005F8692 /* VDPStackViewController.m in Sources */,
 				26EFE4DB1DE80F4C002CD83B /* VDPViewController.m in Sources */,
 				261EC1441F010932006E7011 /* UIView+HKYExtension.m in Sources */,
+				2615A2801F3344D7007DA519 /* VDPUpdateFileViewController.m in Sources */,
 				261EC1401F010889006E7011 /* VDPNavigationController.m in Sources */,
 				26D8A4731EF132EB0007FBA1 /* FileHash.m in Sources */,
 				268A94D01DEEAC130037A141 /* LocationShareModel.m in Sources */,
 				268A94D11DEEAC130037A141 /* LocationTracker.m in Sources */,
 				26021C141ED1884E00263852 /* VDPPasswordInputWindow.m in Sources */,
 				26DCE7EF1EFA4CD500D74F92 /* VDPPrisonBreakWarning.m in Sources */,
+				2664AC171F4D625F003A3D70 /* VDPSeparateNaviViewController.m in Sources */,
 				268A94CF1DEEAC130037A141 /* BackgroundTaskManager.m in Sources */,
 				26DCE8451EFB9B7000D74F92 /* VDPStudent.m in Sources */,
 				26DCE7DD1EFA131200D74F92 /* VDPScreenShotWarning.m in Sources */,
@@ -1939,6 +1965,7 @@
 				26AD7AA61F17775400759D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26DCE8961EFBA5DD00D74F92 /* Build configuration list for PBXNativeTarget "VencentDeepPockets_release" */ = {
 			isa = XCConfigurationList;

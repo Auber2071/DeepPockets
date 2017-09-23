@@ -15,13 +15,23 @@
 - (NSString *)md5Hash {
     const char *plain = self.UTF8String;
     unsigned char *digest;
-    digest = malloc(CC_SHA1_DIGEST_LENGTH);
+    digest = malloc(CC_MD5_DIGEST_LENGTH);
     
     CC_MD5(plain, (CC_LONG)strlen(plain), digest);
     
     NSString *encode = [self stringFromBytes:digest length:CC_MD5_DIGEST_LENGTH];
     free(digest);
     return encode;
+}
+
+- (NSString *)hmacMD5WithKey:(NSString *)key {
+    const char *keyData = key.UTF8String;
+    const char *strData = self.UTF8String;
+    uint8_t buffer[CC_MD5_DIGEST_LENGTH];
+    
+    CCHmac(kCCHmacAlgMD5, keyData, strlen(keyData), strData, strlen(strData), buffer);
+    
+    return [self stringFromBytes:buffer length:CC_MD5_DIGEST_LENGTH];
 }
 
 - (NSString *)sha1Hash {
@@ -85,15 +95,7 @@
 }
 
 #pragma mark - HMAC
-- (NSString *)hmacMD5WithKey:(NSString *)key {
-    const char *keyData = key.UTF8String;
-    const char *strData = self.UTF8String;
-    uint8_t buffer[CC_MD5_DIGEST_LENGTH];
-    
-    CCHmac(kCCHmacAlgMD5, keyData, strlen(keyData), strData, strlen(strData), buffer);
-    
-    return [self stringFromBytes:buffer length:CC_MD5_DIGEST_LENGTH];
-}
+
 
 - (NSString *)hmacSHA1WithKey:(NSString *)key {
     NSData *hashData = [self dataUsingEncoding:NSUTF8StringEncoding];

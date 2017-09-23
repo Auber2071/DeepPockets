@@ -32,7 +32,7 @@
 - (NSString *)sha512Hash;
 
 #pragma mark - HMAC
-
+//明文加盐md5——>密文。密文+明文再次md5——>最终的密文
 /// 返回结果：32长度  终端命令：echo -n "123" | openssl dgst -md5 -hmac "123"
 - (NSString *)hmacMD5WithKey:(NSString *)key;
 

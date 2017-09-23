@@ -79,8 +79,11 @@ const NSString *testConst = @"testConst";
     [self addUserNameAndPasswordTextField];
     //[self getBundleFileHash];
     //[self p_testBlock];
+    
+    
 
     [self testenumDict];
+    [self p_saveUserInfoToKeychain];
 }
 
 
@@ -552,8 +555,11 @@ const NSString *testConst = @"testConst";
         [mutDict removeObjectForKey:key];
         HKSLog(@"%@",mutDict);
     }];
-
-    
 }
+-(void)p_saveUserInfoToKeychain{
+//    [];
+}
+
+
 
 @end

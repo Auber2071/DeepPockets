@@ -4,7 +4,7 @@ platform :ios,’8.0’
 def pods
     pod 'MJRefresh', '~> 3.1.0'
     pod 'SDWebImage', '~> 3.7.5'
-    pod 'AFNetworking', '~> 3.1.0'
+    pod 'AFNetworking'
     pod 'Masonry'
     # U-Share SDK UI模块（分享面板，建议添加）
     pod 'UMengUShare/UI’
@@ -20,6 +20,8 @@ def pods
     pod 'UMengUShare/Social/SMS'
     # 加入IDFA获取
     pod 'UMengUShare/Plugin/IDFA'
+    # 存储到钥匙串
+    pod 'SSKeychain'
 
 end
 
@@ -33,3 +35,8 @@ targetsArray.each do |t|
    end
 end
 
+#* 网络通信模块(AFURLSessionManager、AFHTTPSessionManger)
+#* 网络状态监听模块(Reachability)
+#* 网络通信安全策略模块(Security)
+#* 网络通信信息序列化/反序列化模块(Serialization)
+#* 对于iOS UIKit库的扩展(UIKit)

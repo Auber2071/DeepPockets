@@ -15,11 +15,13 @@
 
 #define dataSourceArr   @[\
 @{kCellName:@"导航颜色渐变&自定义数字键盘",kCellClassName:@"VDPViewController",kIsXib:@"NO"},\
+@{kCellName:@"导航背景图与body分离",kCellClassName:@"VDPSeparateNaviViewController",kIsXib:@"NO"},\
 @{kCellName:@"Xib StackView",kCellClassName:@"VDPStackViewController",kIsXib:@"YES"},\
 @{kCellName:@"Code StackView",kCellClassName:@"VDPCodeStackViewController",kIsXib:@"NO"},\
 @{kCellName:@"今日列表App Extension",kCellClassName:@"VDPAppExtensionViewController",kIsXib:@"NO"},\
 @{kCellName:@"分享App Extension",kCellClassName:@"VDPShareViewController",kIsXib:@"YES"}\
 ]
+
 
 @interface VDPIndexViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong)  UITableView *tableView;
@@ -37,6 +39,12 @@
 
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+}
 -(void)designRightNavItem{
 
 }

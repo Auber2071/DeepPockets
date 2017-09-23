@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '526557C7713FCDD6C9F4A9D56B176748'
+               BlueprintIdentifier = 'E466953DE5070EC9012A4A95595CD4A8'
                BlueprintName = 'Pods-VencentDeepPockets'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-VencentDeepPockets.a'>

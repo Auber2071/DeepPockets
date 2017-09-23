@@ -43,11 +43,16 @@ static BOOL isProduction = FALSE;
 
 
 -(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
-    HKSLog(@"annotation method——url:%@",url);
-    HKSLog(@"URLquery:%@",[url query]);
-    HKSLog(@"sourceApplication:%@",sourceApplication);
+    /*
+    annotation method——url:MainDemoWebToDeepPockets://aciton?params=1$second=2
+    URLquery:params=1$second=2
+    sourceApplication:com.bonc.MainDemoWeb
+    */
+    HKSLog(@"\nannotation method——url:%@",url);
+    HKSLog(@"\nURLquery:%@",[url query]);
+    HKSLog(@"\nsource Application BundleID:%@",sourceApplication);
     
-    if ([url.scheme isEqualToString:@"GoodMorning"]) {
+    if ([url.scheme isEqualToString:@"MainDemoWebToDeepPockets"]) {
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(500 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             //[[NSNotificationCenter defaultCenter] postNotificationName:<#(nonnull NSNotificationName)#> object:nil];
         });
@@ -57,9 +62,25 @@ static BOOL isProduction = FALSE;
 
 
 -(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    /*
+    options method——url:MainDemoWebToDeepPockets://aciton?params=1$second=2
+    URLquery:params=1$second=2
+    source applicationID:com.bonc.MainDemoWeb
+     //网页调用app时会取值
+    UIApplicationOpenURLOptionsOpenInPlaceKey :
+     */
+    
+    /*
+     safari 调用
+    options method——url:    maindemowebtodeeppockets://com.Vencent.VencentDeepPockets
+    URLquery:(null)
+    source application BundleID:    com.apple.mobilesafari
+    UIApplicationOpenURLOptionsOpenInPlaceKey :0
+     */
+    
     HKSLog(@"options method——url:%@",url);
     HKSLog(@"URLquery:%@",[url query]);
-    HKSLog(@"source applicationID:%@",[options objectForKey:@"UIApplicationOpenURLOptionsSourceApplicationKey"]);
+    HKSLog(@"source application BundleID:%@",[options objectForKey:@"UIApplicationOpenURLOptionsSourceApplicationKey"]);
     HKSLog(@"UIApplicationOpenURLOptionsOpenInPlaceKey :%@",[options objectForKey:@"UIApplicationOpenURLOptionsOpenInPlaceKey"]);
     //NSArray *array = [[url query] componentsSeparatedByString:@"="];
     //进行字符串的拆分，通过&来拆分，把每个参数分开
@@ -76,7 +97,9 @@ static BOOL isProduction = FALSE;
         //ios7系统下也适用
     }
     
-    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示" message:@")application:(UIApplication *)app openURL:(NSURL *)url options:" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+    [alertView show];
+
     
     NSArray *subArray = [[url query] componentsSeparatedByString:@"&"];
     NSMutableDictionary *tempDic = [NSMutableDictionary dictionary];
@@ -89,7 +112,13 @@ static BOOL isProduction = FALSE;
     return YES;
 }
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored    "-Warc-performSelector-leaks"
+    id overlayClass =NSClassFromString(@"UIDebuggingInformationOverlay");
+    [overlayClass performSelector:NSSelectorFromString(@"prepareDebuggingOverlay")];
+#pragma clang diagnostic pop
     
     /*******************************************************************************************/
     #pragma mark - 初始化友盟分享
@@ -110,8 +139,8 @@ static BOOL isProduction = FALSE;
     self.window.rootViewController = naviV;
     [self.window makeKeyAndVisible];
     
-    
-    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示" message:@"didFinishLaunchingWithOptions" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+    [alertView show];
     
     /******************************************************************************************/
     #pragma mark - 极光推送      添加初始化APNs代码
@@ -148,18 +177,15 @@ static BOOL isProduction = FALSE;
     
     /******************************************************************************************/
     #pragma mark - 检测越狱
-    VDPPrisonBreakWarning *prisonBreakWarning = [VDPPrisonBreakWarning new];
-    [prisonBreakWarning checkPrisonBreak];//检测越狱
+    //VDPPrisonBreakWarning *prisonBreakWarning = [VDPPrisonBreakWarning new];
+    //[prisonBreakWarning checkPrisonBreak];//检测越狱
     
     /******************************************************************************************/
     
     
     HKSLog(@"程序已经启动：DidFinishLaunching");
-    
-    
-    
-    self.screenShotObj = [VDPScreenShotWarning shareVDPScreenShotWarning];
-    [self.screenShotObj checkScreenShot];
+    //self.screenShotObj = [VDPScreenShotWarning shareVDPScreenShotWarning];
+    //[self.screenShotObj checkScreenShot];
     
     return YES;
 }

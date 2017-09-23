@@ -1,5 +1,5 @@
 #ifndef confuseHeader_h
 #define confuseHeader_h
-//confuse string at Wed Jul 12 16:37:42 CST 2017
-#define shareVDPScreenShotWarning cNYttFyhnwzwusEH
+//confuse string at Wed Sep 13 14:52:15 CST 2017
+#define shareVDPScreenShotWarning IoRMFjUQByCTMbTw
 #endif

@@ -19,6 +19,7 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - SSKeychain (1.4.1)
   - UMengUShare/Core (6.4.5):
     - UMengUShare/Network
   - UMengUShare/Network (6.4.5)
@@ -38,10 +39,11 @@ PODS:
     - UMengUShare/Core
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.1.0)
+  - AFNetworking
   - Masonry
   - MJRefresh (~> 3.1.0)
   - SDWebImage (~> 3.7.5)
+  - SSKeychain
   - UMengUShare/Plugin/IDFA
   - UMengUShare/Social/Email
   - UMengUShare/Social/ReducedQQ
@@ -55,8 +57,9 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   UMengUShare: a5711c54e640b04e3048e931d2b88d50f9cfa55c
 
-PODFILE CHECKSUM: 2e53139638daef43fec2aeb7c4f5b19a2faf96a6
+PODFILE CHECKSUM: '008c730bd6167622e8a1ed3baa0f804f63f03ab2'
 
 COCOAPODS: 1.2.1
