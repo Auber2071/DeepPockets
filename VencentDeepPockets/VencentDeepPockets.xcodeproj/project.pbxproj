@@ -59,6 +59,8 @@
 		264B72141F15C53B00093088 /* VDPShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 264B72091F15C53B00093088 /* VDPShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2664AC171F4D625F003A3D70 /* VDPSeparateNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664AC161F4D625F003A3D70 /* VDPSeparateNaviViewController.m */; };
 		2664AC181F4D625F003A3D70 /* VDPSeparateNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2664AC161F4D625F003A3D70 /* VDPSeparateNaviViewController.m */; };
+		2686F36A1F79227A00E274CC /* TTCongCongF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2686F3691F79216700E274CC /* TTCongCongF.ttf */; };
+		2686F36B1F79228500E274CC /* TTCongCongF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2686F3691F79216700E274CC /* TTCongCongF.ttf */; };
 		268A94CF1DEEAC130037A141 /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */; };
 		268A94D01DEEAC130037A141 /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CD1DEEAC130037A141 /* LocationShareModel.m */; };
 		268A94D11DEEAC130037A141 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A94CE1DEEAC130037A141 /* LocationTracker.m */; };
@@ -67,6 +69,8 @@
 		26AD7A9E1F17775400759D3B /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AD7A9D1F17775400759D3B /* ActionRequestHandler.m */; };
 		26AD7AA01F17775400759D3B /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 26AD7A9F1F17775400759D3B /* Action.js */; };
 		26AD7AA41F17775400759D3B /* VDPActionNOUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26AD7A9A1F17775400759D3B /* VDPActionNOUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26C4D3041F8CC07400128398 /* LaunchScreen1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C4D3021F8CBF9500128398 /* LaunchScreen1.storyboard */; };
+		26C4D3051F8CC07500128398 /* LaunchScreen1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C4D3021F8CBF9500128398 /* LaunchScreen1.storyboard */; };
 		26C861CF1EC99C400019345B /* VDPPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C861CE1EC99C400019345B /* VDPPersion.m */; };
 		26CA54461F162F5500B49D18 /* VencentDeepPockets copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CA54451F162F5500B49D18 /* VencentDeepPockets copy-Info.plist */; };
 		26CE96051E65713400B6E99D /* jcore-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CE96021E65713400B6E99D /* jcore-ios-1.1.1.a */; };
@@ -304,6 +308,7 @@
 		264B72111F15C53B00093088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2664AC151F4D625F003A3D70 /* VDPSeparateNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPSeparateNaviViewController.h; sourceTree = "<group>"; };
 		2664AC161F4D625F003A3D70 /* VDPSeparateNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPSeparateNaviViewController.m; sourceTree = "<group>"; };
+		2686F3691F79216700E274CC /* TTCongCongF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TTCongCongF.ttf; sourceTree = "<group>"; };
 		268A94C91DEEAC130037A141 /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
 		268A94CA1DEEAC130037A141 /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
 		268A94CB1DEEAC130037A141 /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
@@ -319,6 +324,7 @@
 		26AD7A9D1F17775400759D3B /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
 		26AD7A9F1F17775400759D3B /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 		26AD7AA11F17775400759D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C4D3031F8CBF9500128398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen1.storyboard; sourceTree = "<group>"; };
 		26C861CD1EC99C400019345B /* VDPPersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPPersion.h; sourceTree = "<group>"; };
 		26C861CE1EC99C400019345B /* VDPPersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPPersion.m; sourceTree = "<group>"; };
 		26CA54451F162F5500B49D18 /* VencentDeepPockets copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VencentDeepPockets copy-Info.plist"; sourceTree = "<group>"; };
@@ -771,7 +777,9 @@
 				26EFE4AD1DE7E3DF002CD83B /* main.m */,
 				26EFE4B81DE7E3DF002CD83B /* Assets.xcassets */,
 				26EFE4BA1DE7E3DF002CD83B /* LaunchScreen.storyboard */,
+				26C4D3021F8CBF9500128398 /* LaunchScreen1.storyboard */,
 				26EFE4BD1DE7E3DF002CD83B /* Info.plist */,
+				2686F3691F79216700E274CC /* TTCongCongF.ttf */,
 				2692D1B91E65B0E6008E4AB6 /* VencentDeepPockets copy2-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -1081,6 +1089,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2686F36B1F79228500E274CC /* TTCongCongF.ttf in Resources */,
 				261EC1481F010D91006E7011 /* confuseSecond.sh in Resources */,
 				26DCE8751EFBA5DD00D74F92 /* search@2x.png in Resources */,
 				26DCE8761EFBA5DD00D74F92 /* 222_16.jpg in Resources */,
@@ -1099,6 +1108,7 @@
 				26DCE8831EFBA5DD00D74F92 /* 222_14.jpg in Resources */,
 				26DCE8841EFBA5DD00D74F92 /* search.png in Resources */,
 				26DCE8851EFBA5DD00D74F92 /* 222_10.jpg in Resources */,
+				26C4D3051F8CC07500128398 /* LaunchScreen1.storyboard in Resources */,
 				26DCE8861EFBA5DD00D74F92 /* 222_8.jpg in Resources */,
 				26DCE8871EFBA5DD00D74F92 /* VDPStackViewController.xib in Resources */,
 				26DCE8881EFBA5DD00D74F92 /* search@3x.png in Resources */,
@@ -1117,6 +1127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2686F36A1F79227A00E274CC /* TTCongCongF.ttf in Resources */,
 				261EC1471F010D91006E7011 /* confuseSecond.sh in Resources */,
 				264427411EA73DBF00DB0B3F /* search@2x.png in Resources */,
 				260903BA1EF7AC1F005F8692 /* 222_16.jpg in Resources */,
@@ -1131,6 +1142,7 @@
 				260903A41EF7AC1F005F8692 /* 222_9.jpg in Resources */,
 				260903A01EF7AC1F005F8692 /* 222_3.jpg in Resources */,
 				26021C1A1ED190DD00263852 /* iPhonePortraitiOS89_414x736pt@3x.png in Resources */,
+				26C4D3041F8CC07400128398 /* LaunchScreen1.storyboard in Resources */,
 				261340B11EF8F22900D970F7 /* func.list in Resources */,
 				260903B61EF7AC1F005F8692 /* 222_14.jpg in Resources */,
 				2644273F1EA73DBF00DB0B3F /* search.png in Resources */,
@@ -1542,6 +1554,14 @@
 				264B720F1F15C53B00093088 /* Base */,
 			);
 			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		26C4D3021F8CBF9500128398 /* LaunchScreen1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26C4D3031F8CBF9500128398 /* Base */,
+			);
+			name = LaunchScreen1.storyboard;
 			sourceTree = "<group>";
 		};
 		26EFE4BA1DE7E3DF002CD83B /* LaunchScreen.storyboard */ = {

@@ -187,8 +187,27 @@ static BOOL isProduction = FALSE;
     //self.screenShotObj = [VDPScreenShotWarning shareVDPScreenShotWarning];
     //[self.screenShotObj checkScreenShot];
     
+    [self launchAnimation];
     return YES;
 }
+
+
+- (void)launchAnimation {
+    UIViewController *viewController = [[UIStoryboard storyboardWithName:@"LaunchScreen1" bundle:nil] instantiateViewControllerWithIdentifier:@"LaunchScreen"];
+    
+    UIView *launchView = viewController.view;
+    UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
+    launchView.frame = mainWindow.frame;
+    [mainWindow addSubview:launchView];
+    
+    [UIView animateWithDuration:5.0f delay:1.f options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        launchView.alpha = 0.0f;
+        launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, 2.0f, 2.0f, 1.0f);
+    } completion:^(BOOL finished) {
+        [launchView removeFromSuperview];
+    }];
+}
+
 
 //禁用扩展(Extension),如：三方键盘(搜狗输入法)
 - (BOOL)application:(UIApplication *)application shouldAllowExtensionPointIdentifier:(UIApplicationExtensionPointIdentifier)extensionPointIdentifier{

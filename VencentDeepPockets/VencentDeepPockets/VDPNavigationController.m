@@ -20,7 +20,7 @@
     UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[self class], nil];
     //设置全局apperance
     //UINavigationBar *bar = [UINavigationBar appearance];
-    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+    [bar setBackgroundImage:[UIImage imageNamed:@"navi750"] forBarMetrics:UIBarMetricsDefault];
     HKSLog(@"%s",__func__);
 }
 

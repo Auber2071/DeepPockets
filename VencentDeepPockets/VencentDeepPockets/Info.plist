@@ -57,21 +57,24 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>请允许访问相机,否则APP无法正常工作</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>请允许访问相册,否则APP无法正常工作</string>
-    
-    <key>NSLocationUsageDescription</key>
-    <string>访问位置</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>请求开启定位服务，否则APP无法正常工作</string>
+	<key>NSLocationUsageDescription</key>
+	<string>访问位置</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>请求开启定位服务，否则APP无法正常工作</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>请允许访问相册,否则APP无法正常工作</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>TTCongCongF.ttf</string>
+	</array>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>LaunchScreen1</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

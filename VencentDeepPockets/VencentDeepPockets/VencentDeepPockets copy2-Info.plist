@@ -48,5 +48,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>TTCongCongF.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -32,12 +32,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"DeepPockets";
     [self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    if (@available(iOS 11.0, *)) {
+        self.navigationController.navigationBar.prefersLargeTitles = YES;
+    } else {
+        // Fallback on earlier versions
+    }
     
     [self p_addTableView];
     //[self checkScreenShot];
-
+    [self p_PrintCodeStyle];
 }
+
+-(void)p_PrintCodeStyle{
+    /**
+     * 检查自定义字体族是否成功加入
+     */
+    // 取出系统安装了的所有字体族名
+    NSArray *familyNames = [UIFont familyNames];
+    HKSLog(@"count:%ld,系统所有字体族名：%@", familyNames.count,familyNames);
+    // 打印字体族的所有子字体名(每种字体族可能对应多个子样式字体，例如每种字体族可能有粗体、斜体、粗斜体等等样式)
+    for(NSString *familyName in familyNames) {
+        // 字体族的所有子字体名
+        NSArray *detailedNames = [UIFont fontNamesForFamilyName:familyName];
+        HKSLog(@"\n字体族%@的所有子字体名：%@", familyName,detailedNames);
+    }
+}
+
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
