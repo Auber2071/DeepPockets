@@ -18,8 +18,9 @@
 #import "VDPPersion.h"
 #import "FileHash.h"//用于完整性校验
 #import "VDPCustomNumberKeyBoard.h"
-
-
+#import <objc/runtime.h>
+#import <CoreTelephony/CoreTelephonyDefines.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
 
 
@@ -47,6 +48,7 @@ const NSString *testConst = @"testConst";
 
 @property (nonatomic, strong) NSString *testString;
 @property (nonatomic, assign) int number;
+@property (nonatomic, strong) UIView *testView;
 
 @end
 
@@ -82,9 +84,12 @@ const NSString *testConst = @"testConst";
     
     
 
-    [self testenumDict];
-    [self p_saveUserInfoToKeychain];
+//    [self testenumDict];
+//    [self p_saveUserInfoToKeychain];
+//    [self testUIAlertController];
+    [self testIVAR];
 }
+
 
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -101,11 +106,11 @@ const NSString *testConst = @"testConst";
 -(void)p_designNavigationCorrelationAttribute{
     self.automaticallyAdjustsScrollViewInsets = NO;
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    
+
     //设置导航标题字体颜色
     NSDictionary *dict = @{NSForegroundColorAttributeName:UIColorFromRGB(0xffffff),NSFontAttributeName:[UIFont systemFontOfSize:20.f]};
     [self.navigationController.navigationBar setTitleTextAttributes:dict];
-    
+
     //设置导航颜色
     [self.navigationController.navigationBar setTintColor:[UIColor blueColor]];
     [self.navigationController.navigationBar setBarTintColor:[UIColor blueColor]];
@@ -137,14 +142,27 @@ const NSString *testConst = @"testConst";
 
 
 -(void)p_searchBar{
-    self.searchBar = [[UISearchBar alloc]initWithFrame:CGRectMake(20, 5, SCREEN_WIDTH - 40, 30)];
-    _searchBar.barStyle = UIBarStyleBlack;
-    [_searchBar setImage:[UIImage imageNamed:@"search"] forSearchBarIcon:UISearchBarIconSearch state:UIControlStateNormal];
-    [_searchBar setPlaceholder:@"请输入搜索"];
-    _searchBar.layer.masksToBounds = YES;
-    _searchBar.layer.cornerRadius = 15.f;
-    
-    self.navigationItem.titleView =_searchBar;
+    if (@available(iOS 11.0,*)) {
+        self.searchBar = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH - 2*44 - 2*15, 30)];
+        _searchBar.barStyle = UIBarStyleBlack;
+        [_searchBar setImage:[UIImage imageNamed:@"search"] forSearchBarIcon:UISearchBarIconSearch state:UIControlStateNormal];
+        [_searchBar setPlaceholder:@"请输入搜索"];
+        _searchBar.layer.masksToBounds = YES;
+        _searchBar.layer.cornerRadius = 15.f;
+        [self.searchBar setBackgroundColor:[UIColor clearColor]];
+        UIView *searBarBottomView = [[UIView alloc] initWithFrame:self.searchBar.frame];
+        [searBarBottomView addSubview:self.searchBar];
+        self.navigationItem.titleView = searBarBottomView;
+        
+    }else{
+        self.searchBar = [[UISearchBar alloc]initWithFrame:CGRectMake(20, 5, SCREEN_WIDTH - 40, 30)];
+        _searchBar.barStyle = UIBarStyleBlack;
+        [_searchBar setImage:[UIImage imageNamed:@"search"] forSearchBarIcon:UISearchBarIconSearch state:UIControlStateNormal];
+        [_searchBar setPlaceholder:@"请输入搜索"];
+        _searchBar.layer.masksToBounds = YES;
+        _searchBar.layer.cornerRadius = 15.f;
+        self.navigationItem.titleView = self.searchBar;
+    }
 }
 
 -(void)p_addMainBottomScrollView{
@@ -557,9 +575,132 @@ const NSString *testConst = @"testConst";
     }];
 }
 -(void)p_saveUserInfoToKeychain{
-//    [];
+
+}
+-(void)testUIAlertController{
+    self.testView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    self.testView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.testView];
+    self.testView.hidden = YES;
+    [self.view bringSubviewToFront:self.testView];
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"测试" message:@"UIAlertController" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    UIAlertAction *finishAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+
+        HKSLog(@"%s",__func__);
+        self.testView.hidden = NO;
+
+        dispatch_async(dispatch_get_main_queue(), ^{
+            HKSLog(@"%s",__func__);
+
+        });
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextFieldTextDidChangeNotification object:nil];
+    }];
+    finishAction.enabled = NO;
+    
+    UIAlertAction *destructiveAction = [UIAlertAction actionWithTitle:@"危险操作" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    /*
+     如果上拉菜单中有“取消”按钮的话，那么它永远都会出现在菜单的底部，不管添加的次序是如何（就是这么任性）。其他的按钮将会按照添加的次序从上往下依次显示。《iOS 用户界面指南》要求所有的“毁坏”样式按钮都必须排名第一（红榜嘛，很好理解的，对不对？）。
+     */
+    [alertController addAction:cancelAction];
+    [alertController addAction:finishAction];
+//    [alertController addAction:destructiveAction];
+
+    alertController.preferredAction = finishAction;
+    
+    /*
+    您不能在上拉菜单中添加文本框，如果您强行作死添加了文本框，那么就会荣幸地得到一个运行时异常：
+    * Terminating app due to uncaught exception ‘NSInternalInconsistencyException’, reason: ‘Text fields can only be added to an alert controller of style UIAlertControllerStyleAlert’
+    */
+    if (alertController.preferredStyle == UIAlertControllerStyleAlert) {
+        [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldChanged:) name:UITextFieldTextDidChangeNotification object:nil];
+        }];
+    }
+    
+//    UIPopoverPresentationController *popover = alertController.popoverPresentationController;
+//    if (popover){
+//        popover.sourceView = self.view;
+//        popover.sourceRect = self.view.bounds;
+//        popover.permittedArrowDirections = UIPopoverArrowDirectionAny;
+//    }
+
+    [self presentViewController:alertController animated:NO completion:nil];
+}
+-(void)textFieldChanged:(NSNotification *)notification{
+    UIAlertController *alertController = (UIAlertController *)self.presentedViewController;
+    if (alertController) {
+        UITextField *textField = alertController.textFields.firstObject;
+        UIAlertAction *finishAction = alertController.actions.lastObject;
+        NSString *tempStr = [textField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+        finishAction.enabled = tempStr.length > 0;
+    }
 }
 
-
+-(void)testIVAR{
+    unsigned int count = 0;
+    Ivar *ivars = class_copyIvarList([[[UIApplication sharedApplication] valueForKeyPath:@"_statusBar"] class], &count);
+    for (int i = 0; i< count; i++) {
+        Ivar var = ivars[i];
+        const char *member = ivar_getName(var);
+        const char *memberType = ivar_getTypeEncoding(var);
+        NSString *logStr = [NSString stringWithFormat:@"key=%s,type=%s",member,memberType];
+        NSLog(@">>>>>%@",logStr);
+    }
+    
+    NSArray *subviews;
+    // 不能用 [[self deviceVersion] isEqualToString:@"iPhone X"] 来判断，因为iPhone X 的模拟器不会返回 iPhone X
+    if ([[[UIApplication sharedApplication]  valueForKeyPath:@"_statusBar"] isKindOfClass:NSClassFromString(@"UIStatusBar_Modern")]) {
+        subviews = [[[[[UIApplication sharedApplication]  valueForKeyPath:@"_statusBar"] valueForKeyPath:@"_statusBar"] valueForKeyPath:@"foregroundView"] subviews];
+    } else {
+        subviews = [[[[UIApplication sharedApplication]  valueForKeyPath:@"_statusBar"] valueForKeyPath:@"foregroundView"] subviews];
+    }
+    NSNumber *dataNetworkItemView = nil;
+    for (id subview in subviews) {
+        if([subview isKindOfClass:[NSClassFromString(@"UIStatusBarDataNetworkItemView") class]]) {
+            dataNetworkItemView = subview;
+            break;
+        }
+    }
+    NSInteger netWorkType = [[dataNetworkItemView valueForKey:@"dataNetworkType"]integerValue];
+    NSLog(@"netWorkType:%ld",netWorkType);
+    
+    
+    NSArray *typeStrings2G = @[CTRadioAccessTechnologyEdge,
+                               CTRadioAccessTechnologyGPRS,
+                               CTRadioAccessTechnologyCDMA1x];
+    
+    NSArray *typeStrings3G = @[CTRadioAccessTechnologyHSDPA,
+                               CTRadioAccessTechnologyWCDMA,
+                               CTRadioAccessTechnologyHSUPA,
+                               CTRadioAccessTechnologyCDMAEVDORev0,
+                               CTRadioAccessTechnologyCDMAEVDORevA,
+                               CTRadioAccessTechnologyCDMAEVDORevB,
+                               CTRadioAccessTechnologyeHRPD];
+    NSArray *typeStrings4G = @[CTRadioAccessTechnologyLTE];
+    // 该 API 在 iOS7 以上系统才有效
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        CTTelephonyNetworkInfo *teleInfo= [[CTTelephonyNetworkInfo alloc] init];
+        NSString *accessString = teleInfo.currentRadioAccessTechnology;
+        NSLog(@"accessString:%@",accessString);
+        if ([typeStrings4G containsObject:accessString]) {
+            NSLog(@"4G网络");
+        } else if ([typeStrings3G containsObject:accessString]) {
+            NSLog(@"3G网络");
+        } else if ([typeStrings2G containsObject:accessString]) {
+            NSLog(@"2G网络");
+        } else {
+            NSLog(@"未知网络");
+        }
+    } else {
+        NSLog(@"未知网络");
+    }
+}
 
 @end

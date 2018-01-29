@@ -22,7 +22,6 @@
     [imageView setFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 64)];
     [self.view addSubview:imageView];
     
-    
     UIImageView *backImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back.png"]];
     [backImageView setFrame:CGRectMake(0, CGRectGetMaxY(imageView.frame)+4, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame)-68)];
     [self.view addSubview:backImageView];

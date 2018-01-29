@@ -31,6 +31,7 @@
 
 //截屏警告
 -(void)warningMethod:(NSNotificationCenter *)notification{
+    
     NSString *warningStr = @"可能有恶意软件对您的操作截屏，请谨慎操作！";
     [self alertMessageWith:warningStr content:@"截屏警告" btnName:@"忽略"];
 }

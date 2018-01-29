@@ -36,7 +36,7 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     if (@available(iOS 11.0, *)) {
-        self.navigationController.navigationBar.prefersLargeTitles = YES;
+        self.navigationController.navigationBar.prefersLargeTitles = NO;
     } else {
         // Fallback on earlier versions
     }
@@ -44,7 +44,9 @@
     [self p_addTableView];
     //[self checkScreenShot];
     [self p_PrintCodeStyle];
+    
 }
+
 
 -(void)p_PrintCodeStyle{
     /**
@@ -102,6 +104,39 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return [dataSourceArr count];
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    //    BCSelectServiceProModel *model = _currentData[indexPath.section];
+    //    if (model.ID.length<1) {
+    //        return 44;
+    //    }
+    //    CGFloat height = [self.heightCalculator heightForCalculateheightModelIDAsKey:model.ID];
+    //    if (height > 0) {
+    //        return height;
+    //    }
+    //    BCProjectNameAtuoHeightTableViewCell *cell = self.prototypeCell;
+    //    cell.contentView.translatesAutoresizingMaskIntoConstraints = NO;
+    //    [self configureCell:cell atIndexPath:indexPath];
+    //
+    //
+    //    CGFloat contentViewWidth = CGRectGetWidth(_proNameTableView.bounds);
+    //
+    //
+    //
+    //    NSLayoutConstraint *widthFenceConstraint = [NSLayoutConstraint constraintWithItem:cell.contentView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:contentViewWidth];
+    //
+    //
+    //    CGFloat fittingHeight = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+    //    [cell.contentView removeConstraint:widthFenceConstraint];
+    //    CGFloat cellHeight = fittingHeight + 2*1/[UIScreen mainScreen].scale + 10; //必须加上上下分割线的高度
+    //    NSLog(@"fittingHeight:%f——cellHeight:%f",fittingHeight,cellHeight);
+    //    if (cellHeight <44) {
+    //        cellHeight = 44;
+    //    }
+    //
+    //    [self.heightCalculator setHeight:cellHeight withCalculateheightModelIDAsKey:model.ID];
+    //    return cellHeight;
+    return 44.f;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

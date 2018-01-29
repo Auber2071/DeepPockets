@@ -184,13 +184,14 @@ static BOOL isProduction = FALSE;
     
     
     HKSLog(@"程序已经启动：DidFinishLaunching");
-    //self.screenShotObj = [VDPScreenShotWarning shareVDPScreenShotWarning];
-    //[self.screenShotObj checkScreenShot];
+//    self.screenShotObj = [VDPScreenShotWarning shareVDPScreenShotWarning];
+//    [self.screenShotObj checkScreenShot];
     
     [self launchAnimation];
     return YES;
 }
 
+#pragma mark - 启动图动画
 
 - (void)launchAnimation {
     UIViewController *viewController = [[UIStoryboard storyboardWithName:@"LaunchScreen1" bundle:nil] instantiateViewControllerWithIdentifier:@"LaunchScreen"];
@@ -200,7 +201,7 @@ static BOOL isProduction = FALSE;
     launchView.frame = mainWindow.frame;
     [mainWindow addSubview:launchView];
     
-    [UIView animateWithDuration:5.0f delay:1.f options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+    [UIView animateWithDuration:0.5f delay:1.f options:UIViewAnimationOptionBeginFromCurrentState animations:^{
         launchView.alpha = 0.0f;
         launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, 2.0f, 2.0f, 1.0f);
     } completion:^(BOOL finished) {
