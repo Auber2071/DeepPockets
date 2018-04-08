@@ -22,8 +22,6 @@
 #import <UserNotifications/UserNotifications.h>// iOS10注册APNs所需头文件
 #endif
 
-
-
 static NSString *appKey = @"";
 static NSString *channel = @"Publish channel";
 static BOOL isProduction = FALSE;
