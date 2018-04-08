@@ -37,6 +37,10 @@ static BOOL isProduction = FALSE;
 @interface AppDelegate ()<JPUSHRegisterDelegate>
 @property (nonatomic, strong) VDPScreenShotWarning *screenShotObj;
 
+
+
+
+
 @end
 
 @implementation AppDelegate
